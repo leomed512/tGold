@@ -38,12 +38,39 @@
     width: -moz-fit-content;
     width: fit-content;
     position: absolute;
-    right: 0px;
+    right: 50px;
     top: 330px;
   }
   .title .banner img {
     width: 300px;
     height: 300px;
+  }
+
+  .main-services {
+    max-width: 890px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-services__element {
+    max-width: 280px;
+    -webkit-margin-end: 20px;
+            margin-inline-end: 20px;
+    -webkit-margin-before: 20px;
+            margin-block-start: 20px;
+  }
+  .main-services__text {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 390px;
+    -webkit-margin-after: 40px;
+            margin-block-end: 40px;
   }
 
   .content-box {

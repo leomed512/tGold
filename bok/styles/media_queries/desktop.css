@@ -28,6 +28,49 @@
     height: 350px;
   }
 
+  .main-services {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+  }
+  .main-services__element {
+    max-width: 1000px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 100px auto 0 auto;
+  }
+  .main-services__text {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-width: 600px;
+    min-height: 280px;
+    margin: auto;
+  }
+  .main-services__text h2 {
+    font-size: 3rem;
+  }
+  .main-services__text p {
+    font-size: 1.8rem;
+  }
+  .main-services__image {
+    margin: 0 auto;
+  }
+  .main-services .left {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+
   .content-box {
     -webkit-margin-after: 50px;
             margin-block-end: 50px;

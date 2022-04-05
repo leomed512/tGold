@@ -34,7 +34,7 @@
         .banner {
             width: fit-content;
             position: absolute;
-            right: 0px;
+            right: 50px;
             top: 330px;
             img {
                 width: 300px;
@@ -42,6 +42,26 @@
             }
         }
     }
+
+
+////////////////// main services
+.main-services {
+    max-width: 890px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__element {
+        max-width: 280px;
+        margin-inline-end: 20px;
+        margin-block-start: 20px;
+    }
+    &__text {
+        height: fit-content;
+        min-height: 390px;
+        margin-block-end: 40px;
+    }
+}
+/////////////////////////////////
     .content-box {
         margin-block-start: 130px;
         }

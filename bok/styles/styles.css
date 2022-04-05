@@ -13,7 +13,7 @@ html {
 body {
   width: 100%;
   height: 100%;
-  background-color: #f3f0ef;
+  background-color: #F0F2FC;
 }
 
 .main-container {
@@ -178,6 +178,70 @@ body {
 .title .banner img {
   width: 150px;
   height: 150px;
+}
+
+.main-services {
+  width: 90%;
+  margin: 50px auto;
+}
+.main-services__element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 35px 0;
+  max-width: 700px;
+}
+.main-services__text {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+}
+.main-services__text h2 {
+  margin: 20px 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.8rem;
+}
+.main-services__text p {
+  line-height: 3rem;
+  color: #343434;
+  font-size: 1.6rem;
+}
+.main-services__image {
+  width: 90%;
+  max-width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main-services img {
+  width: 100%;
+  height: auto;
+}
+.main-services .left p {
+  -webkit-margin-start: auto;
+          margin-inline-start: auto;
+}
+.main-services .left h2 {
+  -webkit-margin-end: auto;
+          margin-inline-end: auto;
+}
+.main-services .right p {
+  -webkit-margin-start: auto;
+          margin-inline-start: auto;
+}
+.main-services .right h2 {
+  -webkit-margin-start: 0;
+          margin-inline-start: 0;
 }
 
 .content-box {
