@@ -35,7 +35,7 @@
   width: 100%;
   max-width: 1500px;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 70px auto;
   &__element {
       max-width: 1300px;
       flex-direction: row;
@@ -57,6 +57,7 @@
   }
   &__image {
     margin: 0 auto;
+    max-width: 300px;
   }
   .left {
     flex-direction: row-reverse;

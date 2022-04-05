@@ -34,6 +34,13 @@
             }
         }
     }
+//////////////// main services
+.main-services {
+    &__image {
+        max-width: 250px;
+    }
+}
+
 //////////////////////////ABOUT US
 .aboutus {
     margin-block-end: 200px;

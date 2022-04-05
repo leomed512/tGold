@@ -26,7 +26,8 @@
     }
     &__image {
         width: 90%;
-        max-width: 250px;
+        max-width: 200px;
+        margin-block-start: 20px;
         display: flex;
         justify-content: center;
     }
