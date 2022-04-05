@@ -28,4 +28,14 @@
         };
       }
 }
+  
+  //////////
+  .text {
+    &__wrapper {
+    max-width: 2000px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    //padding: 40px 0px;
+        }
+    } 
 }

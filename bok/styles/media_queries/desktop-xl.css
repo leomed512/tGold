@@ -23,4 +23,14 @@
     width: 420px;
     height: 420px;
   }
+
+  .text__wrapper {
+    max-width: 2000px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }

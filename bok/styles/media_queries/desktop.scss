@@ -146,10 +146,28 @@
    
   }
 }
+////// module 3 text
 .text {
+  &__element {
+    height: fit-content;
+    min-height: 610px;
+    margin-inline-end: 20px;
+    padding: 30px;
+  }
   &__wrapper {
+  max-width: 1200px;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 150px 0px;
+
+  h2 {
+    margin-block-end: 10px;
+    font-size: 2.8rem;
+}
+p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
       }
   }      
 }
