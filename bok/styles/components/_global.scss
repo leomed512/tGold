@@ -1,0 +1,34 @@
+$main: #F6CC2C;
+$light: #fff;
+$dark: #000000;
+$var-dark: #495057;
+$var-darker: #343434; 
+$var-soft: #6c757d;
+$var-off-white: #f3f0ef;
+$var-light: #dee2e6;
+$purple: #652D90;
+$secundary: #005FA6;
+$font1: 'Lato', sans-serif;
+$title-font: 'Play', sans-serif;
+$font2: 'Oswald', sans-serif;
+$cornerSize: 40px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: $font1;
+}
+body { 
+    width: 100%;
+    height: 100%;
+    background-color: $var-off-white;
+}
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+}

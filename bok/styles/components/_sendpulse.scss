@@ -1,0 +1,27 @@
+.sendpulse {
+    width: 90%;
+    margin: 30px auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &__button {
+        width: 130px;
+        padding: 15px 30px;
+        margin: 10px;
+        background-image: linear-gradient(to bottom, #005fa6, #066bb8, #0c77c9, #1184dc, #1591ee);
+        font-family: $font2;
+        font-size: 2rem;
+        font-weight: 700;
+        color: $light;
+        border-radius: 7px;
+        box-shadow: 2px 3px 3px rgba(#000000, 0.2);
+    }
+    h4 {
+        margin: 20px;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 3.5rem;
+    }
+}

@@ -1,0 +1,64 @@
+@media (min-width: 500px) {
+  .header {
+    padding: 0 15px;
+  }
+  .header .page-title {
+    -webkit-margin-start: 10px;
+            margin-inline-start: 10px;
+  }
+  .header .page-title h1 {
+    font-size: 3.2rem;
+  }
+  .header .page-title h2 {
+    font-size: 2.4rem;
+  }
+  .header .main-logo img {
+    margin: 0 10px;
+  }
+
+  .title h2 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+  .title h3 {
+    font-size: 2.5rem;
+  }
+  .title h4 {
+    line-height: 3rem;
+    text-align: center;
+  }
+  .title .banner img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .aboutus {
+    -webkit-margin-after: 200px;
+            margin-block-end: 200px;
+  }
+  .aboutus h2 {
+    font-size: 4.4rem;
+  }
+  .aboutus p {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+
+  .buytoken__option {
+    max-width: 550px;
+    margin-right: 20px;
+  }
+
+  .widget-crypto .widget-crypto__container .title-crypto h2 {
+    -webkit-margin-after: 35px;
+            margin-block-end: 35px;
+    font-size: 3.4rem;
+  }
+  .widget-crypto .widget-crypto__container .onramp-container-crypto .onramp {
+    width: 320px;
+  }
+
+  .text__element {
+    padding: 10px 0;
+  }
+}

@@ -1,0 +1,119 @@
+@media (min-width:1030px) {
+      .content-box__element {
+          margin-inline-end: 40px;
+      }
+      .header { 
+        padding: 0 60px;
+        .page-title {
+          h1 {
+          margin: 0;
+          }
+      }
+    }
+
+    .title {
+      h2 {
+        max-width: 1000px;
+          font-size: 6rem;
+          line-height: 7rem;
+      }
+      h3 {
+          font-size: 3rem;
+      }
+      .banner {
+        right: 0px;
+        top: 280px;
+        img {
+          width: 350px;
+          height: 350px
+        };
+      }
+  }
+      .content-box {
+        margin-block-end: 50px;
+        &__element {
+          margin-block-end: 100px;
+        }
+    }
+          //////////////About Us
+    .secondary-header {
+      padding: 0 30px;
+      h1 {
+          margin-inline-start: 15px;
+      }
+    }
+    .aboutus {
+      margin-block-end: 350px;
+      div {
+        margin-block-end: 30px;
+      }
+      
+      p {
+        margin-block-end: 30px;
+      }
+    }
+////////////////////////sendpulse
+.sendpulse {
+  margin-block-end: 150px;
+}
+//////////////////BUY TOKEN
+.buytoken {
+  h1 {
+    margin-block-end: 10px;
+  }
+  &__wrapper {
+    margin-block-end: 100px;
+  }
+  &__option {
+      max-width: 1200px;
+  }
+}
+//////////////////POP-UP MESSAGE
+.popup-window__content {
+  margin: 20% auto 0 auto;
+}
+
+//////////////////////crypto page
+
+///////////////////////////////widgets 
+.widget-crypto {
+  .widget-crypto__container {
+    flex-wrap: nowrap;
+    .title-crypto {
+    padding: 10px 20px;
+    margin-block-start: 150px;
+    max-width: 500px;
+  }
+}
+.title-crypto h3{
+  position: relative;
+}
+  /////////////////////////////visa-mastercard 
+.visa-mastercard {
+  position: absolute;
+  bottom: -110px;
+  left: 70px;
+  
+  h4 {
+    font-size: 1.6rem;
+  }
+  img {
+    width: 180px;
+    height: 80px;
+  }
+}
+}
+.exchange {
+  &__container {
+  max-width: 1500px;
+
+   
+  }
+}
+.text {
+  &__wrapper {
+  flex-direction: row;
+  flex-wrap: wrap;
+      }
+  }      
+}

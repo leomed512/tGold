@@ -1,0 +1,106 @@
+@media (min-width: 768px) {
+  .header {
+    padding: 0 40px;
+  }
+  .header .page-title {
+    -webkit-margin-start: 15px;
+            margin-inline-start: 15px;
+  }
+  .header .page-title h1 {
+    font-size: 3.4rem;
+  }
+  .header .page-title h2 {
+    font-size: 2.6rem;
+  }
+  .header .main-logo img {
+    margin: 0 15px;
+  }
+
+  .title {
+    min-height: 600px;
+  }
+  .title h2 {
+    font-size: 5rem;
+    line-height: 6.5rem;
+  }
+  .title h3 {
+    -webkit-margin-before: 50px;
+            margin-block-start: 50px;
+  }
+  .title h4 {
+    -webkit-margin-before: 300px;
+            margin-block-start: 300px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .title .banner {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: absolute;
+    right: 0px;
+    top: 330px;
+  }
+  .title .banner img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .content-box {
+    -webkit-margin-before: 130px;
+            margin-block-start: 130px;
+  }
+
+  .tawfiki {
+    font-size: 1.2rem;
+  }
+
+  .sendpulse {
+    -webkit-margin-after: 100px;
+            margin-block-end: 100px;
+  }
+  .sendpulse h4 {
+    margin: 30px;
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+
+  .buytoken {
+    -webkit-margin-before: 50px;
+            margin-block-start: 50px;
+  }
+  .buytoken h1 {
+    font-size: 3.4rem;
+  }
+  .buytoken__wrapper {
+    -webkit-margin-after: 50px;
+            margin-block-end: 50px;
+  }
+  .buytoken__option {
+    max-width: 800px;
+    -webkit-margin-after: 50px;
+            margin-block-end: 50px;
+  }
+  .buytoken__option h3 {
+    font-size: 2.2rem;
+    line-height: 4rem;
+  }
+
+  .popup-window__content {
+    margin: 30% auto 0 auto;
+  }
+
+  .widget-crypto .widget-crypto__container .title-crypto h2 {
+    -webkit-margin-after: 35px;
+            margin-block-end: 35px;
+    font-size: 4.5rem;
+  }
+  .widget-crypto .widget-crypto__container .title-crypto h3 {
+    font-size: 2.2rem;
+  }
+
+  .aboutus {
+    -webkit-margin-after: 250px;
+            margin-block-end: 250px;
+  }
+}

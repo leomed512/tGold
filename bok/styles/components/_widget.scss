@@ -1,0 +1,111 @@
+.widget {
+    margin-block-end: 300px;
+    padding: 40px 20px;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #451769, #4d1c73, #55227c, #5d2786, #652d90);
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        h4 {
+            max-width: 150px;
+            margin: 40px auto;
+            padding: 5px;
+            font-size: 2.8rem;
+            color: $light;
+            font-family: $font2;
+            border: solid 1.5px $light;
+            border-radius: 5px;
+            background-color: $secundary;
+            box-shadow: 3px 3px 3px rgba($dark, 0.4);
+        }
+    }
+    .onramp-container {
+        margin: 20px;
+            .onramp {
+            width: 280px;
+            height: 650px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px rgba($dark, 0.4);
+    }
+ }
+    h2 {
+        margin: 10px;
+        font-size: 2.6rem;
+        color: $light;
+        font-family: $font2;
+    }
+
+   
+}
+////////////////////////////crypto page 
+.widget-crypto {
+    padding: 40px 20px 10px 20px; 
+    background-color: $dark;
+    .widget-crypto__container {
+        max-width: 1400px;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       .title-crypto {
+           height: auto;
+        h2 {
+            margin-block-end: 25px;
+            color: $main;
+            font-size: 2.8rem;
+            font-family: $font2;
+        }
+        h3 {
+            font-size: 1.8rem;
+            color: $light;
+            line-height: 3rem;
+        }
+    }
+  .onramp-container-crypto {
+        margin: 50px auto;
+        .onramp {
+        width: 100%;
+        max-width: 500px;
+        height: 660px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px rgba($dark, 0.4);
+        border: solid 4px $main;
+    }
+ }
+    }
+}
+
+/////////////////////////////////visa master card
+.visa-mastercard {
+    max-width: 950px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    justify-content: center;
+    &__container {
+        h4 {
+                color: $light;
+                font-size: 1.2rem;
+            }
+            img {
+                width: 140px;
+                height: 60px;
+            }
+    }
+    
+}
+
+////////////////////////////Token widget
+.token-widget {
+    border-block-start: $var-soft solid 2px;
+    border-block-end: $var-soft solid 2px;
+    padding: 20px;
+    &__element {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+}
+    
+
+

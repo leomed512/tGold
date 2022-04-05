@@ -1,0 +1,87 @@
+@media (min-width:1260px){
+    .header {
+        padding: 0 150px
+    }
+    .content-box-coins {
+        margin-block-start: 50px;
+        margin-block-end: 100px;
+    }  
+   .coins-title {
+       margin-block-start: 100px;
+       margin-block-end: 80px;
+   }
+   .text {
+    &__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+        }
+    }
+
+//// title
+
+.title {
+    h2 {
+        font-size: 7rem;
+        max-width: fit-content;
+    }
+    h3 {
+        margin-block-start: 80px;
+        font-size: 3rem;
+    }
+    h4 {
+        margin-block-start: 350px;
+    }
+    .banner {
+        right: 0px;
+        top: 260px;
+        img {
+          width: 380px;
+          height: 380px
+        };
+      }
+}
+    ////////////////////////////crypto page 
+.widget-crypto {
+    .widget-crypto__container {
+       .title-crypto {
+        h2 {
+            font-size: 4.5rem;
+        }
+        h3 {
+            font-size: 2.2rem;
+            line-height: 3rem;
+        }
+    .visa-mastercard {
+    top: -400px;
+    left: 5%;
+        }
+    }
+  .onramp-container-crypto {
+        .onramp {
+        width: 650px;
+                }
+            } 
+        }
+}
+        
+ //////////////////BUY TOKEN
+.buytoken {
+    h1{
+       margin-block-end: 10px;
+        font-size: 4rem;
+        max-width: 900px;
+    }
+    &__wrapper {
+      max-width: 2200px;
+      margin-block-end: 200px;
+      
+    }
+    &__option {
+        max-width: 1400px;
+        h3 {
+        font-size: 2.4rem;
+        line-height: 4rem;
+      }
+    }
+  }   
+}

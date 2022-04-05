@@ -1,0 +1,48 @@
+.powered {
+    width: 80%;
+    margin: 30px auto;
+      
+    h4 {
+        margin-inline-start: 30px;
+        font-size: 2.4rem;
+        font-family: $font2;
+        font-weight: lighter;
+        color: $var-dark;
+        text-align: center;
+    }
+}
+.partners {
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    div {
+        margin-block-end: 20px;
+        padding-inline-start: 10px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    &__dodo {
+        width: 160px;
+        height: 70px;
+    }
+    &__polymath {
+        width: 160px;
+        height: 90px;
+    }
+    &__digishares {
+        width: 160px;
+        height: 110px;
+    }
+    &__cosmos {
+        width: 160px;
+        height: 150px;
+    }
+    &__polygon {
+        width: 160px;
+        height: 140px;
+    }
+}

@@ -1,0 +1,18 @@
+.aboutus {
+    width: 90%;
+    margin: 20px auto 200px auto;
+    padding: 10px;
+
+    h2 {
+        font-size: 4rem;
+        padding: 5px;
+        font-family: $font2;
+    }
+    p {
+        margin-block-end: 30px;
+        max-width: 1200px;
+        padding: 10px 5px;
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
+}

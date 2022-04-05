@@ -1,0 +1,120 @@
+@media (min-width: 1030px) {
+  .content-box__element {
+    -webkit-margin-end: 40px;
+            margin-inline-end: 40px;
+  }
+
+  .header {
+    padding: 0 60px;
+  }
+  .header .page-title h1 {
+    margin: 0;
+  }
+
+  .title h2 {
+    max-width: 1000px;
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+  .title h3 {
+    font-size: 3rem;
+  }
+  .title .banner {
+    right: 0px;
+    top: 280px;
+  }
+  .title .banner img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .content-box {
+    -webkit-margin-after: 50px;
+            margin-block-end: 50px;
+  }
+  .content-box__element {
+    -webkit-margin-after: 100px;
+            margin-block-end: 100px;
+  }
+
+  .secondary-header {
+    padding: 0 30px;
+  }
+  .secondary-header h1 {
+    -webkit-margin-start: 15px;
+            margin-inline-start: 15px;
+  }
+
+  .aboutus {
+    -webkit-margin-after: 350px;
+            margin-block-end: 350px;
+  }
+  .aboutus div {
+    -webkit-margin-after: 30px;
+            margin-block-end: 30px;
+  }
+  .aboutus p {
+    -webkit-margin-after: 30px;
+            margin-block-end: 30px;
+  }
+
+  .sendpulse {
+    -webkit-margin-after: 150px;
+            margin-block-end: 150px;
+  }
+
+  .buytoken h1 {
+    -webkit-margin-after: 10px;
+            margin-block-end: 10px;
+  }
+  .buytoken__wrapper {
+    -webkit-margin-after: 100px;
+            margin-block-end: 100px;
+  }
+  .buytoken__option {
+    max-width: 1200px;
+  }
+
+  .popup-window__content {
+    margin: 20% auto 0 auto;
+  }
+
+  .widget-crypto .widget-crypto__container {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .widget-crypto .widget-crypto__container .title-crypto {
+    padding: 10px 20px;
+    -webkit-margin-before: 150px;
+            margin-block-start: 150px;
+    max-width: 500px;
+  }
+  .widget-crypto .title-crypto h3 {
+    position: relative;
+  }
+  .widget-crypto .visa-mastercard {
+    position: absolute;
+    bottom: -110px;
+    left: 70px;
+  }
+  .widget-crypto .visa-mastercard h4 {
+    font-size: 1.6rem;
+  }
+  .widget-crypto .visa-mastercard img {
+    width: 180px;
+    height: 80px;
+  }
+
+  .exchange__container {
+    max-width: 1500px;
+  }
+
+  .text__wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
