@@ -35,6 +35,9 @@
   .main-services__image {
     max-width: 250px;
   }
+  .main-services h2 {
+    font-size: 3.4rem;
+  }
 
   .aboutus {
     -webkit-margin-after: 200px;

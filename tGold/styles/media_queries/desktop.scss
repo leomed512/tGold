@@ -32,7 +32,7 @@
   width: 100%;
   max-width: 1500px;
   display: block;
-  margin: 0 auto 70px auto;
+  margin: 0 auto 120px auto;
   &__element {
       max-width: 1300px;
       flex-direction: row;
@@ -46,10 +46,11 @@
       min-height: 280px;
       margin: auto;
       h2 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
     p {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
+        line-height: 3.4rem;
     }
   }
   &__image {

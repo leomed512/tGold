@@ -28,7 +28,7 @@
     width: 100%;
     max-width: 1500px;
     display: block;
-    margin: 0 auto 70px auto;
+    margin: 0 auto 120px auto;
   }
   .main-services__element {
     max-width: 1300px;
@@ -53,10 +53,11 @@
     margin: auto;
   }
   .main-services__text h2 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .main-services__text p {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
+    line-height: 3.4rem;
   }
   .main-services__image {
     margin: 0 auto;
