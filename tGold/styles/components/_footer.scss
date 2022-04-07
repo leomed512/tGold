@@ -2,12 +2,11 @@ footer {
     width: 100%;
     height: fit-content;
     padding: 20px 5px;
-    margin-block-start: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: $main;
+    background-color: $golden;
     color: $dark;
 }
 .contact-email {   

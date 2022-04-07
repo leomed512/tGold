@@ -1,0 +1,54 @@
+.news-logo {
+    width: 95%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+        font-family: $font2;
+        font-size: 3rem;
+    }
+    &__wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+    img {
+        margin: 50px;
+    }
+  .marketwatch {
+      width: fit-content;
+        img {
+            width: 200px;
+            
+        }   
+    }
+    .abc {
+        width: fit-content;
+        img {
+            width: 200px;
+        }  
+    }
+    .nbc {
+        width: fit-content;
+        img {
+            width: 200px;
+        }
+    }
+    .cbs {
+        width: fit-content;
+        img {
+            width: 200px;
+        }
+    }
+    .fox {
+        width: fit-content;
+        img {
+            width: 200px;
+        }
+    }  
+}
