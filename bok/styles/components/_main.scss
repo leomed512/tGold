@@ -1,7 +1,7 @@
 /////////Main section
 .main-services {
     width: 90%;
-    margin: 50px auto;
+    margin: 100px auto;
     &__element {
         display: flex;
         flex-direction: column;
@@ -53,67 +53,6 @@
     }
 }
 
-//////////////For images to be shown oppositively     
-    
-
-
-
-
-/////old code
-
-.content-box {
-    width: 90%;
-    max-width: 900px;
-    margin: 50px auto 80px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-        &__element {
-            width: 210px;
-            height: 160px;
-            margin: 0 20px 60px 20px;
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            box-shadow: -3px 4px 5px 0 rgba($var-soft, 0.4);
-            text-decoration: none;
-            border: solid $dark 0.2rem;
-            background-color: $light;
-            border-radius: 5px; 
-            img {
-                width: 60px;
-                height: 70px;
-            }
-        }
-        h2 {
-            font-size: 3rem;
-            font-family: $font2;
-            font-weight: lighter;
-            color: $dark;   
-        }
-        .fold-ear {
-            width: 0; 
-            height: 0;
-            position: absolute;
-            border-color: $light;
-            top: -2px;
-            right: -2px;
-            border-top: $cornerSize solid $light; 
-            border-left: $cornerSize solid $main;
-            box-shadow: -2px 3px 2px rgba($dark, 0.2);
-        }
-        .live {
-            position: absolute;
-            top: 2.2rem;
-            right: 1.3rem;
-            color: $dark;
-            font-size: 1.2rem;
-            font-weight: 700;
-        }
-        
-                    }
 /////////////////top button
 
 .myBtn {

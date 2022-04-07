@@ -1,16 +1,5 @@
 @media (min-width: 1500px) {
-    .widget-crypto {
-        .visa-mastercard {
-            bottom: 10px;
-            left: 12%;
-        }
-    }
-    .content-box-coins {
-        max-width: 2000px;
-    }
-    /////title
     //// title
-
 .title {
     h2 {
         font-size: 8rem;
@@ -28,14 +17,12 @@
         };
       }
 }
-  
   //////////
   .text {
     &__wrapper {
     max-width: 2000px;
     flex-direction: row;
     flex-wrap: nowrap;
-    //padding: 40px 0px;
         }
     } 
 }

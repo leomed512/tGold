@@ -47,18 +47,4 @@
     font-size: 2.2rem;
     line-height: 3rem;
   }
-
-  .buytoken__option {
-    max-width: 550px;
-    margin-right: 20px;
-  }
-
-  .widget-crypto .widget-crypto__container .title-crypto h2 {
-    -webkit-margin-after: 35px;
-            margin-block-end: 35px;
-    font-size: 3.4rem;
-  }
-  .widget-crypto .widget-crypto__container .onramp-container-crypto .onramp {
-    width: 320px;
-  }
 }

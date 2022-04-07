@@ -53,30 +53,4 @@
     }
    
 }
-////////////////////Buy Token 
-
-.buytoken {
-    &__option {
-        max-width: 550px;
-        margin-right: 20px;
-    }
-}
-/////////////////////////////crypto page widgets
-
-.widget-crypto {
-    .widget-crypto__container {
-        .title-crypto {
-        h2 {
-            margin-block-end: 35px;
-            font-size: 3.4rem;
-        }
-    }
-    .onramp-container-crypto {
-            .onramp {
-            width: 320px;
-        }
-    }  
-}  
-}
-
 }

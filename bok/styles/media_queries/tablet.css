@@ -73,57 +73,12 @@
             margin-block-end: 40px;
   }
 
-  .content-box {
-    -webkit-margin-before: 130px;
-            margin-block-start: 130px;
-  }
-
   .tawfiki {
     font-size: 1.2rem;
   }
 
-  .sendpulse {
-    -webkit-margin-after: 100px;
-            margin-block-end: 100px;
-  }
-  .sendpulse h4 {
-    margin: 30px;
-    font-size: 2.5rem;
-    line-height: 4rem;
-  }
-
-  .buytoken {
-    -webkit-margin-before: 50px;
-            margin-block-start: 50px;
-  }
-  .buytoken h1 {
-    font-size: 3.4rem;
-  }
-  .buytoken__wrapper {
-    -webkit-margin-after: 50px;
-            margin-block-end: 50px;
-  }
-  .buytoken__option {
-    max-width: 800px;
-    -webkit-margin-after: 50px;
-            margin-block-end: 50px;
-  }
-  .buytoken__option h3 {
-    font-size: 2.2rem;
-    line-height: 4rem;
-  }
-
   .popup-window__content {
     margin: 30% auto 0 auto;
-  }
-
-  .widget-crypto .widget-crypto__container .title-crypto h2 {
-    -webkit-margin-after: 35px;
-            margin-block-end: 35px;
-    font-size: 4.5rem;
-  }
-  .widget-crypto .widget-crypto__container .title-crypto h3 {
-    font-size: 2.2rem;
   }
 
   .aboutus {

@@ -3,20 +3,6 @@
     padding: 0 150px;
   }
 
-  .content-box-coins {
-    -webkit-margin-before: 50px;
-            margin-block-start: 50px;
-    -webkit-margin-after: 100px;
-            margin-block-end: 100px;
-  }
-
-  .coins-title {
-    -webkit-margin-before: 100px;
-            margin-block-start: 100px;
-    -webkit-margin-after: 80px;
-            margin-block-end: 80px;
-  }
-
   .text__wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -45,39 +31,5 @@
   .title .banner img {
     width: 380px;
     height: 380px;
-  }
-
-  .widget-crypto .widget-crypto__container .title-crypto h2 {
-    font-size: 4.5rem;
-  }
-  .widget-crypto .widget-crypto__container .title-crypto h3 {
-    font-size: 2.2rem;
-    line-height: 3rem;
-  }
-  .widget-crypto .widget-crypto__container .title-crypto .visa-mastercard {
-    top: -400px;
-    left: 5%;
-  }
-  .widget-crypto .widget-crypto__container .onramp-container-crypto .onramp {
-    width: 650px;
-  }
-
-  .buytoken h1 {
-    -webkit-margin-after: 10px;
-            margin-block-end: 10px;
-    font-size: 4rem;
-    max-width: 900px;
-  }
-  .buytoken__wrapper {
-    max-width: 2200px;
-    -webkit-margin-after: 200px;
-            margin-block-end: 200px;
-  }
-  .buytoken__option {
-    max-width: 1400px;
-  }
-  .buytoken__option h3 {
-    font-size: 2.4rem;
-    line-height: 4rem;
   }
 }

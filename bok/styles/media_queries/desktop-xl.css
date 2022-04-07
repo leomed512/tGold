@@ -1,13 +1,4 @@
 @media (min-width: 1500px) {
-  .widget-crypto .visa-mastercard {
-    bottom: 10px;
-    left: 12%;
-  }
-
-  .content-box-coins {
-    max-width: 2000px;
-  }
-
   .title h2 {
     font-size: 8rem;
     line-height: 9rem;
