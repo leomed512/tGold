@@ -626,3 +626,63 @@ footer {
   width: 160px;
   height: 85px;
 }
+
+.news-logo {
+  width: 95%;
+  margin: 80px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.news-logo__container {
+  margin: 50px;
+}
+.news-logo .marketwatch {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 50px;
+}
+.news-logo .marketwatch img {
+  width: 200px;
+}
+.news-logo .abc {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.news-logo .abc img {
+  width: 200px;
+}
+.news-logo .nbc {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.news-logo .nbc img {
+  width: 200px;
+}
+.news-logo .cbs {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.news-logo .cbs img {
+  width: 200px;
+}
+.news-logo .fox {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.news-logo .fox img {
+  width: 200px;
+}
