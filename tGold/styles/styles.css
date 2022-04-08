@@ -654,7 +654,7 @@ footer {
   width: fit-content;
 }
 .news-logo .marketwatch img {
-  width: 200px;
+  width: 180px;
 }
 .news-logo .abc {
   width: -webkit-fit-content;
@@ -662,7 +662,7 @@ footer {
   width: fit-content;
 }
 .news-logo .abc img {
-  width: 200px;
+  width: 120px;
 }
 .news-logo .nbc {
   width: -webkit-fit-content;
@@ -670,7 +670,7 @@ footer {
   width: fit-content;
 }
 .news-logo .nbc img {
-  width: 200px;
+  width: 120px;
 }
 .news-logo .cbs {
   width: -webkit-fit-content;
@@ -678,7 +678,7 @@ footer {
   width: fit-content;
 }
 .news-logo .cbs img {
-  width: 200px;
+  width: 120px;
 }
 .news-logo .fox {
   width: -webkit-fit-content;
@@ -686,5 +686,5 @@ footer {
   width: fit-content;
 }
 .news-logo .fox img {
-  width: 200px;
+  width: 120px;
 }
