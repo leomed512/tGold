@@ -13,31 +13,26 @@
        .main-logo img {
             margin: 0 15px;
         }
+        .image-button {
+            width: 50px;
+        }
     }
     
     .title {
+        background-image: url(https://res.cloudinary.com/arawato666/image/upload/v1649380132/BANNER-02-02-01_zejebi.jpg);
         min-height: 600px;
+        padding-block-start: 50px;
         h2 {
             font-size: 5rem;
             line-height: 6.5rem;
+            max-width: 700px;
         }
         h3 {
             margin-block-start: 50px;
         }
         h4 {
-            margin-block-start: 300px;
+            margin-block-start: 200px;
             font-size: 2rem;
-            text-align: center;
-        }
-        .banner {
-            width: fit-content;
-            position: absolute;
-            right: 50px;
-            top: 330px;
-            img {
-                width: 300px;
-                height: 300px;
-            }
         }
     }
 ////////////////// main services

@@ -7,21 +7,14 @@
   }
 
   .title h2 {
-    max-width: 1300px;
-    margin: 0 auto;
     font-size: 6rem;
     line-height: 7rem;
   }
   .title h3 {
     font-size: 3rem;
   }
-  .title .banner {
-    right: 0px;
-    top: 280px;
-  }
-  .title .banner img {
-    width: 350px;
-    height: 350px;
+  .title h4 {
+    font-size: 2.2rem;
   }
 
   .main-services {

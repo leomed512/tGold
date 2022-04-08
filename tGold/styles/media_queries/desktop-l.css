@@ -16,20 +16,10 @@
     font-size: 7rem;
   }
   .title h3 {
-    -webkit-margin-before: 80px;
-            margin-block-start: 80px;
     font-size: 3rem;
   }
   .title h4 {
-    -webkit-margin-before: 240px;
-            margin-block-start: 240px;
-  }
-  .title .banner {
-    right: 0px;
-    top: 260px;
-  }
-  .title .banner img {
-    width: 380px;
-    height: 380px;
+    -webkit-margin-before: 70px;
+            margin-block-start: 70px;
   }
 }

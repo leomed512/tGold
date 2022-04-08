@@ -6,14 +6,6 @@
   .title h3 {
     font-size: 4rem;
   }
-  .title .banner {
-    right: 0px;
-    top: 260px;
-  }
-  .title .banner img {
-    width: 420px;
-    height: 420px;
-  }
 
   .text__wrapper {
     max-width: 2000px;
