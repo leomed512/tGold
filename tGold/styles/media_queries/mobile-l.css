@@ -27,8 +27,8 @@
     line-height: 3rem;
   }
 
-  .main-services__image {
-    max-width: 500px;
+  .main-services__image img {
+    max-width: 450px;
   }
   .main-services h2 {
     font-size: 3.4rem;

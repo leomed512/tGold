@@ -66,6 +66,16 @@
     -webkit-margin-after: 40px;
             margin-block-end: 40px;
   }
+  .main-services__image {
+    max-width: 700px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-services .left img {
+    -webkit-margin-before: 120px;
+            margin-block-start: 120px;
+  }
 
   .tawfiki {
     font-size: 1.2rem;

@@ -37,8 +37,9 @@
         justify-content: center;
         align-items: center;
     img {
-        width: 100%;
-        max-width: 350px;
+        //width: 95%;
+        margin: auto;
+        max-width: 300px;
         filter: drop-shadow(7px 7px 10px $var-soft);
     }
 }

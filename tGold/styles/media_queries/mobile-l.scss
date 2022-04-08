@@ -29,8 +29,9 @@
     }
 //////////////// main services
 .main-services {
-    &__image {
-        max-width: 500px;
+    &__image img {
+
+        max-width: 450px;
     }
     h2 {
         font-size: 3.4rem;

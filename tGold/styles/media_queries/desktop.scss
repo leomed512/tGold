@@ -34,25 +34,29 @@
       margin: 100px auto 0 auto;
   }
   &__text {
-      height: fit-content;
       max-width: 600px;
-      min-height: 280px;
+      min-height: 350px;
       margin: auto;
       h2 {
         font-size: 4rem;
     }
     p {
-        font-size: 1.9rem;
-        line-height: 3.4rem;
+        font-size: 2rem;
+        line-height: 3.5rem;
     }
   }
   &__image {
     margin: 0 auto;
-    max-width: 300px;
+  }
+  &__image img {
+    max-width: 600px;
   }
   .left {
     flex-direction: row-reverse;
   }
+  .left  img {
+    margin-block-start: 0px;
+}
 }
           //////////////About Us
     .secondary-header {

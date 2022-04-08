@@ -38,29 +38,32 @@
     margin: 100px auto 0 auto;
   }
   .main-services__text {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
     max-width: 600px;
-    min-height: 280px;
+    min-height: 350px;
     margin: auto;
   }
   .main-services__text h2 {
     font-size: 4rem;
   }
   .main-services__text p {
-    font-size: 1.9rem;
-    line-height: 3.4rem;
+    font-size: 2rem;
+    line-height: 3.5rem;
   }
   .main-services__image {
     margin: 0 auto;
-    max-width: 300px;
+  }
+  .main-services__image img {
+    max-width: 600px;
   }
   .main-services .left {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+  }
+  .main-services .left img {
+    -webkit-margin-before: 0px;
+            margin-block-start: 0px;
   }
 
   .secondary-header {

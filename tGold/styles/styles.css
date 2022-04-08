@@ -231,8 +231,8 @@ body {
           align-items: center;
 }
 .main-services__image img {
-  width: 100%;
-  max-width: 350px;
+  margin: auto;
+  max-width: 300px;
   -webkit-filter: drop-shadow(7px 7px 10px #6c757d);
           filter: drop-shadow(7px 7px 10px #6c757d);
 }
