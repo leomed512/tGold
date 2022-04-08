@@ -670,6 +670,7 @@ footer {
 .news-logo h3 {
   font-family: "Oswald", sans-serif;
   font-size: 3rem;
+  text-align: center;
 }
 .news-logo__wrapper {
   max-width: 1000px;

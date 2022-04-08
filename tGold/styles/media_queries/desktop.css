@@ -66,6 +66,15 @@
             margin-block-start: 0px;
   }
 
+  .news-logo {
+    -webkit-padding-after: 80px;
+            padding-block-end: 80px;
+  }
+  .news-logo h3 {
+    font-size: 4rem;
+    margin: 50px auto;
+  }
+
   .secondary-header {
     padding: 0 30px;
   }

@@ -83,6 +83,11 @@
             margin-block-end: 20px;
   }
 
+  .news-logo h3 {
+    font-size: 3.6rem;
+    margin: 50px auto;
+  }
+
   .tawfiki {
     font-size: 1.2rem;
   }
