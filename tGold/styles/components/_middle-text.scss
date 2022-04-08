@@ -1,5 +1,5 @@
 .text {
-    background-color: $var-darker;
+    background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
     padding-block-end: 10px;
     &__wrapper {
         display: flex;

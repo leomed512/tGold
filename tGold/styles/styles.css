@@ -295,7 +295,8 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #D4AC2B;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f6cc2c), color-stop(#eec42c), color-stop(#e5bc2c), color-stop(#ddb42b), to(#d4ac2b));
+  background-image: linear-gradient(to right bottom, #f6cc2c, #eec42c, #e5bc2c, #ddb42b, #d4ac2b);
   color: #000000;
 }
 
@@ -485,7 +486,8 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #F6CC2C;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f6cc2c), color-stop(#eec42c), color-stop(#e5bc2c), color-stop(#ddb42b), to(#d4ac2b));
+  background-image: linear-gradient(to right bottom, #f6cc2c, #eec42c, #e5bc2c, #ddb42b, #d4ac2b);
   -webkit-margin-after: 100px;
           margin-block-end: 100px;
 }
@@ -499,7 +501,6 @@ footer {
   font-weight: lighter;
   color: #000000;
   text-align: center;
-  background-color: #F6CC2C;
 }
 
 .partners {
@@ -547,7 +548,8 @@ footer {
 }
 
 .text {
-  background-color: #242426;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#242426), color-stop(#1d1d1e), color-stop(#161616), color-stop(#0d0d0d), to(#000000));
+  background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
   -webkit-padding-after: 10px;
           padding-block-end: 10px;
 }
