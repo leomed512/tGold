@@ -198,7 +198,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 35px 0;
+  margin: 15px 0;
   max-width: 700px;
 }
 .main-services__text {
@@ -224,8 +224,8 @@ body {
           box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .main-services__image {
-  width: 90%;
-  max-width: 200px;
+  width: 100%;
+  max-width: 500px;
   -webkit-margin-before: 20px;
           margin-block-start: 20px;
   display: -webkit-box;
@@ -234,10 +234,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.main-services img {
+.main-services__image img {
   width: 100%;
-  height: auto;
+  max-width: 350px;
+  -webkit-filter: drop-shadow(7px 7px 10px #6c757d);
+          filter: drop-shadow(7px 7px 10px #6c757d);
 }
 .main-services .left p {
   -webkit-margin-start: auto;
@@ -298,7 +303,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #837144;
+  background-color: #D4AC2B;
   color: #000000;
 }
 
@@ -477,14 +482,29 @@ footer {
   padding: 60px 0;
   background-color: #fff;
 }
+.powered__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F6CC2C;
+}
+.powered__title img {
+  width: 50px;
+}
 .powered h4 {
-  -webkit-margin-start: 30px;
-          margin-inline-start: 30px;
-  font-size: 2.4rem;
+  padding: 0 20px;
+  font-size: 2.6rem;
   font-family: "Oswald", sans-serif;
   font-weight: lighter;
-  color: #495057;
+  color: #000000;
   text-align: center;
+  background-color: #F6CC2C;
 }
 
 .partners {
@@ -556,7 +576,7 @@ footer {
 .text__wrapper h2 {
   -webkit-margin-after: 5px;
           margin-block-end: 5px;
-  color: #837144;
+  color: #D4AC2B;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 2rem;
