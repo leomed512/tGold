@@ -77,6 +77,12 @@
             margin-block-start: 120px;
   }
 
+  .text h2 {
+    font-size: 2.8rem;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+
   .tawfiki {
     font-size: 1.2rem;
   }

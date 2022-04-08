@@ -1,5 +1,5 @@
 .text {
-    background-color: #242426;
+    background-color: $var-darker;
     padding-block-end: 10px;
     &__wrapper {
         display: flex;
@@ -11,9 +11,8 @@
         padding: 80px 20px;
         h2 {
             margin-block-end: 5px;
-            color: #D4AC2B;
-            font-family: $font2;
-            text-transform: uppercase;
+            color: $golden;
+            font-family: $font3;
             font-size: 2rem;
             text-align: center;
         }
@@ -29,10 +28,11 @@
         padding: 20px;
         max-width: 400px;
         display: flex;
-        background-color: #333333;
+        background-color: $var-dark;
         border-radius: 10px;
         flex-direction: column;
         align-items: center;
-        justify-content: center;      
+        justify-content: center;
+        box-shadow: 3px 3px 15px rgba($golden, $alpha: 0.2);      
     }
 }

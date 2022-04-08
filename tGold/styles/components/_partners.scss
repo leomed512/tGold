@@ -1,7 +1,7 @@
 .powered {
     width: 100%;
-    margin: 30px auto 0 auto;
-    padding: 60px 0;
+    margin: 0 auto;
+    padding-block-end: 60px;
     background-color: $light;
     
     &__title {
@@ -9,6 +9,7 @@
         align-items: center;
         justify-content: center;
         background-color: $main;
+        margin-block-end: 100px;
         img {
             width: 50px;
         }
