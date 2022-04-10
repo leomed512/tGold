@@ -142,4 +142,9 @@
     -webkit-margin-after: 250px;
             margin-block-end: 250px;
   }
+
+  .footer-pages {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }

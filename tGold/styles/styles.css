@@ -299,6 +299,26 @@ footer {
   background-image: linear-gradient(to right bottom, #f6cc2c, #eec42c, #e5bc2c, #ddb42b, #d4ac2b);
   color: #000000;
 }
+footer .footer-logo {
+  width: 100%;
+  max-width: 800px;
+  padding: 10px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer-logo img {
+  width: 50px;
+  height: auto;
+}
+footer .footer-logo h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  padding: 0 10px;
+}
 
 .contact-email {
   margin: 10px auto;
@@ -308,6 +328,7 @@ footer {
 
 .social {
   width: 300px;
+  margin: 20px auto;
 }
 .social ul {
   display: -webkit-box;
@@ -333,7 +354,7 @@ footer {
 
 .tawfiki {
   width: 90%;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -352,6 +373,7 @@ footer {
 }
 .tawfiki h2 {
   margin: 10px 0;
+  font-size: 1.2rem;
 }
 
 .msb {
@@ -369,12 +391,51 @@ footer {
           align-items: center;
   padding: 0 10px;
   letter-spacing: 2px;
-  font-family: "Oswald", sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 .msb h2 {
   margin: 5px 0;
+}
+
+.footer-pages {
+  max-width: 800px;
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.footer-pages__section {
+  width: 300px;
+  padding: 0 10px;
+  -webkit-margin-after: 40px;
+          margin-block-end: 40px;
+}
+.footer-pages__section h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  -webkit-margin-after: 10px;
+          margin-block-end: 10px;
+}
+.footer-pages a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.footer-pages a:hover {
+  font-size: 1.5rem;
+  font-weight: bold;
+  -webkit-margin-start: 5px;
+          margin-inline-start: 5px;
+}
+.footer-pages li {
+  list-style: none;
+  padding: 5px 0;
 }
 
 .aboutus {
@@ -604,8 +665,10 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-shadow: 3px 3px 15px rgba(212, 172, 43, 0.2);
-          box-shadow: 3px 3px 15px rgba(212, 172, 43, 0.2);
+}
+.text__element:hover {
+  -webkit-box-shadow: 6px 6px 20px rgba(212, 172, 43, 0.2);
+          box-shadow: 6px 6px 20px rgba(212, 172, 43, 0.2);
 }
 
 .news-logo {

@@ -8,6 +8,23 @@ footer {
     align-items: center;
     background-image: linear-gradient(to right bottom, #f6cc2c, #eec42c, #e5bc2c, #ddb42b, #d4ac2b);
     color: $dark;
+    .footer-logo {
+        width: 100%;
+        max-width: 800px;
+        padding: 10px 5px;
+        display: flex;
+        align-items: center;
+        img {
+            width: 50px;
+            height: auto;
+        }
+        h2 {
+            font-family: $font2;
+            font-size: 2rem;
+            padding: 0 10px;
+
+        }
+    }
 }
 .contact-email {   
     margin: 10px auto;
@@ -16,6 +33,7 @@ footer {
 } 
 .social {
     width: 300px;
+    margin: 20px auto;
     ul {
     display: flex;
     justify-content: space-evenly;
@@ -37,7 +55,7 @@ footer {
 }
 .tawfiki {
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,6 +66,7 @@ footer {
     text-align: center;
     h2 {
         margin: 10px 0;
+        font-size: 1.2rem;
     }
 
 }
@@ -59,10 +78,43 @@ footer {
     align-items: center;
     padding: 0 10px;
     letter-spacing: 2px;
-    font-family: $font2;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
     h2 {
         margin: 5px 0;
     }
+}
+
+.footer-pages {
+    max-width: 800px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    &__section {
+        width: 300px;    
+        padding: 0 10px;
+        margin-block-end: 40px;
+        h3 {
+            font-size: 1.6rem;
+            font-weight: bold;
+            margin-block-end: 10px;
+        }
+    }
+    a {
+        color: $dark;
+        text-decoration: none;
+        font-size: 1.4rem;
+        
+    }
+    a:hover {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-inline-start: 5px;
+    }
+    li {
+        list-style: none;
+        padding: 5px 0;
+    }
+    
 }
