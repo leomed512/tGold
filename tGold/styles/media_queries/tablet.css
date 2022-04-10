@@ -20,10 +20,12 @@
   }
 
   .title {
-    background-image: url(https://res.cloudinary.com/arawato666/image/upload/v1649380132/BANNER-02-02-01_zejebi.jpg);
+    background-image: url(https://res.cloudinary.com/arawato666/image/upload/v1649551147/BANNER-02_B__soh7lg.png);
     min-height: 600px;
     -webkit-padding-before: 50px;
             padding-block-start: 50px;
+    -webkit-padding-start: 2%;
+            padding-inline-start: 2%;
   }
   .title h2 {
     font-size: 5rem;
