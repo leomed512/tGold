@@ -1,0 +1,70 @@
+.team {
+    width: 100%;
+    padding: 20px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
+    color: $light;
+    text-align: center;
+
+    h3 {
+        padding: 10px;
+        font-size: 2.5rem;
+        margin: 0 auto;
+        font-family: $font2;
+    }
+    &__avatar--container{
+        max-width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    &__avatar--item {
+        width: 200px;
+        height: 320px;
+        padding: 0 20px;
+        margin: 30px 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $light;
+        box-shadow: 3px 5px 5px $var-darker;
+        text-align: center;
+        border-radius: 10px;
+        color: $var-darker;
+        img {
+            max-width: 160px;
+            margin-block-end: 5px;
+        }
+        h4 {
+            margin: 10px 0;
+            font-size: 1.6rem;
+            text-transform: uppercase;
+            font-family: $font2;
+        }
+        p {
+            font-size: 1.4rem;
+            line-height: 1.8rem;
+        }
+        
+    }
+    &__avatar--description {
+            width: 280px;
+        }
+    .linkedin {
+        position: absolute;
+        right: 5px;
+        bottom: 0;
+        img {
+          width: 30px;  
+        }
+        img:hover {
+            width: 3px;
+        }
+    }
+}
