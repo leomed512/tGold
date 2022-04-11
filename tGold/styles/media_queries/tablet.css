@@ -146,5 +146,28 @@
   .footer-pages {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer-pages__section {
+    width: 200px;
+    -webkit-margin-after: 5px;
+            margin-block-end: 5px;
+    -webkit-margin-before: 20px;
+            margin-block-start: 20px;
+  }
+  .footer-pages__section h3 {
+    font-size: 1.8rem;
+  }
+  .footer-pages a {
+    font-size: 1.5rem;
+  }
+  .footer-pages a:hover {
+    font-size: 1.6rem;
+  }
+
+  footer .footer-logo h2 {
+    font-size: 2.6rem;
   }
 }

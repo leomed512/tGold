@@ -108,7 +108,7 @@
 }
 
 
-/////////////////////////////////
+///////////////////////////////// 
     .tawfiki {
         font-size: 1.2rem;
     }
@@ -125,5 +125,28 @@
     /////////////footer-new section
     .footer-pages {
         flex-wrap: nowrap;
+        justify-content: space-between;
+        &__section {
+            width: 200px;
+            margin-block-end: 5px;
+            margin-block-start: 20px;
+        h3 {
+            font-size: 1.8rem;
+        }
     }
+    a {
+        font-size: 1.5rem;
+    }
+    a:hover {
+    font-size: 1.6rem;
+}
+}
+footer {
+    .footer-logo {
+    h2 {
+        font-size: 2.6rem;
+    }
+}
+}
+
 }
