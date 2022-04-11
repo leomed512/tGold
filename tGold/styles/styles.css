@@ -452,6 +452,9 @@ footer .footer-logo h2 {
   font-size: 1.8rem;
   line-height: 2.6rem;
 }
+.aboutus a {
+  color: #005FA6;
+}
 
 .popup-window {
   width: 100%;
