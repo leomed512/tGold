@@ -6,8 +6,8 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(to right bottom, #f6cc2c, #eec42c, #e5bc2c, #ddb42b, #d4ac2b);
-    color: $dark;
+    background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
+    color: $main;
     .footer-logo {
         width: 100%;
         max-width: 800px;
@@ -102,7 +102,7 @@ footer {
         }
     }
     a {
-        color: $dark;
+        color: $main;
         text-decoration: none;
         font-size: 1.4rem;
         
