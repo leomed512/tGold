@@ -313,6 +313,8 @@ footer .footer-logo {
 footer .footer-logo img {
   width: 50px;
   height: auto;
+  -webkit-margin-start: 10px;
+          margin-inline-start: 10px;
 }
 footer .footer-logo h2 {
   font-family: "Oswald", sans-serif;
@@ -395,7 +397,7 @@ footer .footer-logo h2 {
 
 .footer-pages {
   width: 100%;
-  max-width: 900px;
+  max-width: 600px;
   margin: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;

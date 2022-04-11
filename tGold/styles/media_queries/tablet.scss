@@ -126,6 +126,7 @@
     .footer-pages {
         flex-wrap: nowrap;
         justify-content: space-between;
+        margin-inline-start: 90px;
         &__section {
             width: 200px;
             margin-block-end: 5px;
@@ -146,7 +147,9 @@ footer {
     h2 {
         font-size: 2.6rem;
     }
+    img {
+        width: 100px;
+    }
 }
-}
-
+}   
 }

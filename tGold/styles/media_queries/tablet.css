@@ -149,6 +149,8 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-margin-start: 90px;
+            margin-inline-start: 90px;
   }
   .footer-pages__section {
     width: 200px;
@@ -169,5 +171,8 @@
 
   footer .footer-logo h2 {
     font-size: 2.6rem;
+  }
+  footer .footer-logo img {
+    width: 100px;
   }
 }

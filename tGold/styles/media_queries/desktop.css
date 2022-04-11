@@ -128,4 +128,8 @@
     font-size: 1.8rem;
     line-height: 3rem;
   }
+
+  .footer-pages {
+    max-width: 800px;
+  }
 }
