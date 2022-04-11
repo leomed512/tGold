@@ -438,7 +438,7 @@ footer .footer-logo h2 {
 
 .aboutus {
   width: 90%;
-  margin: 20px auto 200px auto;
+  margin: 20px auto 100px auto;
   padding: 10px;
 }
 .aboutus h2 {
@@ -755,8 +755,12 @@ footer .footer-logo h2 {
 
 .team {
   width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   padding: 20px;
-  margin: 40px 0;
+  -webkit-margin-before: 40px;
+          margin-block-start: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -767,33 +771,45 @@ footer .footer-logo h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#242426), color-stop(#1d1d1e), color-stop(#161616), color-stop(#0d0d0d), to(#000000));
-  background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
-  color: #fff;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#ad7a11), color-stop(#bf8a13), color-stop(#d19a15), color-stop(#e2aa16), to(#f4bb18));
+  background-image: linear-gradient(to right top, #ad7a11, #bf8a13, #d19a15, #e2aa16, #f4bb18);
+  color: #000000;
   text-align: center;
 }
 .team h3 {
+  width: 100%;
+  max-width: 1300px;
   padding: 10px;
   font-size: 2.5rem;
   margin: 0 auto;
   font-family: "Oswald", sans-serif;
+  color: #F6CC2C;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#242426), color-stop(#1d1d1e), color-stop(#161616), color-stop(#0d0d0d), to(#000000));
+  background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
+  border-radius: 5px;
 }
 .team__avatar--container {
-  max-width: 900px;
+  width: 100%;
+  max-width: 1300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .team__avatar--item {
-  width: 200px;
-  height: 320px;
-  padding: 0 20px;
-  margin: 30px 20px;
+  width: 100%;
+  max-width: 320px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px 20px 35px 20px;
+  margin: 30px 0;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -808,27 +824,37 @@ footer .footer-logo h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #fff;
-  -webkit-box-shadow: 3px 5px 5px #242426;
-          box-shadow: 3px 5px 5px #242426;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#242426), color-stop(#1d1d1e), color-stop(#161616), color-stop(#0d0d0d), to(#000000));
+  background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
+  -webkit-box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.2);
+          box-shadow: 6px 6px 20px rgba(255, 255, 255, 0.2);
   text-align: center;
   border-radius: 10px;
-  color: #242426;
+  color: #fff;
 }
 .team__avatar--item img {
   max-width: 160px;
   -webkit-margin-after: 5px;
           margin-block-end: 5px;
+  border-radius: 10px;
 }
 .team__avatar--item h4 {
   margin: 10px 0;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+}
+.team__avatar--item h5 {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  margin: 5px auto;
 }
 .team__avatar--item p {
   font-size: 1.4rem;
   line-height: 1.8rem;
+  -webkit-margin-before: 10px;
+          margin-block-start: 10px;
+  text-align: justify;
 }
 .team__avatar--description {
   width: 280px;
@@ -842,5 +868,108 @@ footer .footer-logo h2 {
   width: 30px;
 }
 .team .linkedin img:hover {
-  width: 3px;
+  width: 32px;
+}
+
+.soledad-advisors {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+  -webkit-margin-after: 150px;
+          margin-block-end: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ad7a11), color-stop(#bf8a13), color-stop(#d19a15), color-stop(#e2aa16), to(#f4bb18));
+  background-image: linear-gradient(to right bottom, #ad7a11, #bf8a13, #d19a15, #e2aa16, #f4bb18);
+  color: #000000;
+  text-align: center;
+}
+.soledad-advisors h3 {
+  width: 100%;
+  max-width: 1300px;
+  padding: 10px;
+  font-size: 2.5rem;
+  margin: 20px auto;
+  font-family: "Oswald", sans-serif;
+  color: #F6CC2C;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#242426), color-stop(#1d1d1e), color-stop(#161616), color-stop(#0d0d0d), to(#000000));
+  background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
+  border-radius: 5px;
+}
+.soledad-advisors__container {
+  width: 100%;
+  max-width: 1300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.soledad-advisors__element {
+  width: 100%;
+  max-width: 320px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#242426), color-stop(#1d1d1e), color-stop(#161616), color-stop(#0d0d0d), to(#000000));
+  background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
+  -webkit-box-shadow: 3px 5px 5px #242426;
+          box-shadow: 3px 5px 5px #242426;
+  text-align: center;
+  border-radius: 10px;
+  color: #F6CC2C;
+}
+.soledad-advisors__element h4 {
+  margin: 10px 0;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+.soledad-advisors__element h5 {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  margin: 5px auto;
+}
+.soledad-advisors__element p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  -webkit-margin-before: 10px;
+          margin-block-start: 10px;
+  text-align: justify;
 }

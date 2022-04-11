@@ -38,10 +38,6 @@
     font-size: 2.5rem;
   }
 
-  .aboutus {
-    -webkit-margin-after: 200px;
-            margin-block-end: 200px;
-  }
   .aboutus h2 {
     font-size: 4.4rem;
   }
@@ -55,5 +51,17 @@
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
+  }
+
+  .team__avatar--item {
+    -webkit-margin-end: 10px;
+            margin-inline-end: 10px;
+    min-height: 510px;
+  }
+
+  .soledad-advisors__element {
+    -webkit-margin-end: 10px;
+            margin-inline-end: 10px;
+    min-height: 490px;
   }
 }

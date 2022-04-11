@@ -45,7 +45,6 @@
 
 //////////////////////////ABOUT US
 .aboutus {
-    margin-block-end: 200px;
     h2 {
         font-size: 4.4rem;
     }
@@ -59,5 +58,19 @@
 .msb {
     align-items: center;
     text-align: center;
+}
+
+////////////// team 
+.team {
+    &__avatar--item {
+        margin-inline-end: 10px;
+        min-height: 510px;
+    }
+}
+.soledad-advisors {
+    &__element {
+        margin-inline-end: 10px;
+        min-height: 490px;  
+    }
 }
 }

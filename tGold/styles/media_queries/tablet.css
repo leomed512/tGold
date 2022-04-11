@@ -138,11 +138,6 @@
     margin: 30% auto 0 auto;
   }
 
-  .aboutus {
-    -webkit-margin-after: 250px;
-            margin-block-end: 250px;
-  }
-
   .footer-pages {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
@@ -174,5 +169,34 @@
   }
   footer .footer-logo img {
     width: 100px;
+  }
+
+  .team__avatar--item {
+    -webkit-margin-before: 90px;
+            margin-block-start: 90px;
+    min-height: 580px;
+  }
+  .team__avatar--item h4 {
+    font-size: 2rem;
+  }
+  .team__avatar--item p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+
+  .soledad-advisors__element {
+    max-width: 380px;
+    min-height: 640px;
+    -webkit-margin-before: 90px;
+            margin-block-start: 90px;
+    -webkit-margin-after: 150px;
+            margin-block-end: 150px;
+  }
+  .soledad-advisors__element h4 {
+    font-size: 2rem;
+  }
+  .soledad-advisors__element p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
   }
 }
