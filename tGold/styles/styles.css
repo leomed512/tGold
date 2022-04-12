@@ -907,9 +907,7 @@ footer .footer-logo h2 {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 20px;
-  -webkit-margin-after: 150px;
-          margin-block-end: 150px;
+  padding: 20px 20px 170px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -960,6 +958,8 @@ footer .footer-logo h2 {
   height: -moz-fit-content;
   height: fit-content;
   padding: 20px;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;

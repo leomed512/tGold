@@ -147,8 +147,8 @@
   }
 
   .soledad-advisors {
-    -webkit-margin-after: 300px;
-            margin-block-end: 300px;
+    -webkit-padding-after: 300px;
+            padding-block-end: 300px;
   }
   .soledad-advisors__element {
     max-width: 380px;
