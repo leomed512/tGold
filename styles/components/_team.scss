@@ -43,7 +43,7 @@
         align-items: center;
         justify-content: center;
         background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
-        box-shadow: 6px 6px 20px rgba($light, $alpha: 0.2); 
+        box-shadow: 6px 6px 20px rgba($dark, $alpha: 0.4); 
         text-align: center;
         border-radius: 10px;
         color: $light;
@@ -129,7 +129,7 @@
         align-items: center;
         justify-content: center;
         background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
-        box-shadow: 3px 5px 5px $var-darker;
+        box-shadow: 3px 5px 10px rgba($dark, 0.5);
         text-align: center;
         border-radius: 10px;
         color: $main;
