@@ -34,4 +34,7 @@
   .main-services h4 {
     font-size: 4.2rem;
   }
+  .main-services .left img {
+    width: 600px;
+  }
 }

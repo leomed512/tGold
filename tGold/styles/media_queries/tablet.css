@@ -77,6 +77,8 @@
   .main-services .left img {
     -webkit-margin-before: 120px;
             margin-block-start: 120px;
+    -webkit-margin-start: 60px;
+            margin-inline-start: 60px;
   }
 
   .text h2 {

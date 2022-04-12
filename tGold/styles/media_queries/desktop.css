@@ -64,6 +64,9 @@
   .main-services .left img {
     -webkit-margin-before: 0px;
             margin-block-start: 0px;
+    -webkit-margin-start: 0;
+            margin-inline-start: 0;
+    width: 450px;
   }
 
   .news-logo {
