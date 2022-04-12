@@ -69,21 +69,14 @@
 }
 }
           //////////////About Us
-    .secondary-header {
-      padding: 0 30px;
-      h1 {
-          margin-inline-start: 15px;
-      }
-    }
-    .aboutus {
-      div {
-        margin-block-end: 30px;
-      }
-      
-      p {
-        margin-block-end: 30px;
-      }
-    }
+/////////about us
+.aboutus {
+  .second {
+      margin-block-start: 50px;
+      height: 380px;
+  }
+
+  
 //////////////////POP-UP MESSAGE
 .popup-window__content {
   margin: 20% auto 0 auto;
@@ -117,4 +110,5 @@ p {
     max-width: 800px;
 }
   
+}
 }

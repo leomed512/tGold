@@ -1,21 +1,38 @@
 .aboutus {
-    width: 90%;
-    margin: 20px auto 100px auto;
-    padding: 10px;
-
-    h2 {
+    width: 100%;
+    margin: 0 auto 100px auto;
+        h2 {
         font-size: 4rem;
-        padding: 5px;
-        font-family: $font2;
+        margin-block-end: 20px;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 3rem;
+        margin-block-end: 20px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__wrapper--item {
+        width: 100%;
+        min-height: 370px;
+        padding: 50px 20px 30px 20px;
+        text-align: justify;
+    }
+    .first {
+        
+        background-image: linear-gradient(to right top, #ad7a11, #bf8a13, #d19a15, #e2aa16, #f4bb18);
+    }
+    .second {
+        background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
+        color: $golden;
     }
     p {
-        margin-block-end: 30px;
-        max-width: 1200px;
-        padding: 10px 5px;
-        font-size: 1.8rem;
-        line-height: 2.6rem;
+        font-size: 1.5rem;
+        line-height: 2.8rem;
     }
     a {
-        color: $secundary;
+        color: $light;
     }
 }

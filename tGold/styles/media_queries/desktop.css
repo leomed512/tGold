@@ -75,28 +75,15 @@
     margin: 50px auto;
   }
 
-  .secondary-header {
-    padding: 0 30px;
+  .aboutus .second {
+    -webkit-margin-before: 50px;
+            margin-block-start: 50px;
+    height: 380px;
   }
-  .secondary-header h1 {
-    -webkit-margin-start: 15px;
-            margin-inline-start: 15px;
-  }
-
-  .aboutus div {
-    -webkit-margin-after: 30px;
-            margin-block-end: 30px;
-  }
-  .aboutus p {
-    -webkit-margin-after: 30px;
-            margin-block-end: 30px;
-  }
-
-  .popup-window__content {
+  .aboutus .popup-window__content {
     margin: 20% auto 0 auto;
   }
-
-  .text__element {
+  .aboutus .text__element {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -105,7 +92,7 @@
             margin-inline-end: 20px;
     padding: 30px;
   }
-  .text__wrapper {
+  .aboutus .text__wrapper {
     max-width: 1200px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -115,17 +102,16 @@
         flex-wrap: wrap;
     padding: 150px 0px;
   }
-  .text__wrapper h2 {
+  .aboutus .text__wrapper h2 {
     -webkit-margin-after: 10px;
             margin-block-end: 10px;
     font-size: 2.8rem;
   }
-  .text__wrapper p {
+  .aboutus .text__wrapper p {
     font-size: 1.8rem;
     line-height: 3rem;
   }
-
-  .footer-pages {
+  .aboutus .footer-pages {
     max-width: 800px;
   }
 }

@@ -199,4 +199,40 @@
     font-size: 1.6rem;
     line-height: 2.2rem;
   }
+
+  .aboutus {
+    width: 100%;
+    margin: 0 auto 300px auto;
+  }
+  .aboutus h2 {
+    font-size: 4rem;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+  .aboutus h3 {
+    font-size: 3rem;
+    -webkit-margin-after: 20px;
+            margin-block-end: 20px;
+  }
+  .aboutus__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-height: 430px;
+    -webkit-margin-after: 250px;
+            margin-block-end: 250px;
+  }
+  .aboutus__wrapper--item {
+    width: 50%;
+  }
+
+  .second {
+    -webkit-margin-before: 50px;
+            margin-block-start: 50px;
+    height: 470px;
+    position: absolute;
+    right: 0;
+  }
 }

@@ -175,4 +175,32 @@ footer {
         }
     }
 }
+/////////about us
+.aboutus {
+    width: 100%;
+    margin: 0 auto 300px auto;
+        h2 {
+        font-size: 4rem;
+        margin-block-end: 20px;
+    }
+    h3 {
+        font-size: 3rem;
+        margin-block-end: 20px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 430px;
+        margin-block-end: 250px;
+    }
+    &__wrapper--item {
+        width: 50%;
+        }
+    }
+    .second {
+        margin-block-start: 50px;
+        height: 470px;
+        position: absolute;
+        right: 0;
+    }
 }
