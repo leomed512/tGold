@@ -8,10 +8,11 @@
     h3 {
         font-family: $font2;
         font-size: 3rem;
+        margin-block-end: 20px;
         text-align: center;
     }
     &__wrapper {
-    max-width: 800px;
+    max-width: 680px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -19,12 +20,13 @@
     align-items: center;
     }
     img {
-        margin: 50px;
+        margin: 30px;
     }
   .marketwatch {
       width: fit-content;
         img {
             width: 180px;
+            margin: 10px;
             
         }   
     }
@@ -32,6 +34,7 @@
         width: fit-content;
         img {
             width: 120px;
+            margin: 10px;
         }  
     }
     .nbc {
