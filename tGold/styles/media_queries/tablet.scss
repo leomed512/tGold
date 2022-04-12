@@ -74,37 +74,6 @@
     font-size: 3.6rem;
     margin: 50px auto;
 }
-.marketwatch {
-    width: fit-content;
-      img {
-          width: 200px;
-          
-      }   
-  }
-  .abc {
-      width: fit-content;
-      img {
-          width: 200px;
-      }  
-  }
-  .nbc {
-      width: fit-content;
-      img {
-          width: 200px;
-      }
-  }
-  .cbs {
-      width: fit-content;
-      img {
-          width: 200px;
-      }
-  }
-  .fox {
-      width: fit-content;
-      img {
-          width: 200px;
-      }
-  }  
 }
 
 
@@ -178,7 +147,8 @@ footer {
 /////////about us
 .aboutus {
     width: 100%;
-    margin: 100px auto 300px auto;
+    margin: 0 auto 300px auto;
+    padding-block-start: 100px;
         h2 {
         font-size: 4rem;
         margin-block-end: 20px;

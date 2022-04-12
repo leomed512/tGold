@@ -89,46 +89,6 @@
     font-size: 3.6rem;
     margin: 50px auto;
   }
-  .news-logo .marketwatch {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .news-logo .marketwatch img {
-    width: 200px;
-  }
-  .news-logo .abc {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .news-logo .abc img {
-    width: 200px;
-  }
-  .news-logo .nbc {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .news-logo .nbc img {
-    width: 200px;
-  }
-  .news-logo .cbs {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .news-logo .cbs img {
-    width: 200px;
-  }
-  .news-logo .fox {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .news-logo .fox img {
-    width: 200px;
-  }
 
   .tawfiki {
     font-size: 1.2rem;
@@ -204,7 +164,9 @@
 
   .aboutus {
     width: 100%;
-    margin: 100px auto 300px auto;
+    margin: 0 auto 300px auto;
+    -webkit-padding-before: 100px;
+            padding-block-start: 100px;
   }
   .aboutus h2 {
     font-size: 4rem;

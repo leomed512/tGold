@@ -80,10 +80,12 @@
             margin-block-start: 50px;
     height: 380px;
   }
-  .aboutus .popup-window__content {
+
+  .popup-window__content {
     margin: 20% auto 0 auto;
   }
-  .aboutus .text__element {
+
+  .text__element {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -92,7 +94,7 @@
             margin-inline-end: 20px;
     padding: 30px;
   }
-  .aboutus .text__wrapper {
+  .text__wrapper {
     max-width: 1200px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -102,16 +104,17 @@
         flex-wrap: wrap;
     padding: 150px 0px;
   }
-  .aboutus .text__wrapper h2 {
+  .text__wrapper h2 {
     -webkit-margin-after: 10px;
             margin-block-end: 10px;
     font-size: 2.8rem;
   }
-  .aboutus .text__wrapper p {
+  .text__wrapper p {
     font-size: 1.8rem;
     line-height: 3rem;
   }
-  .aboutus .footer-pages {
+
+  .footer-pages {
     max-width: 800px;
   }
 }
