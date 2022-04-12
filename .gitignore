@@ -1,0 +1,4 @@
+*.jpg
+.vscode
+*.png
+prepros.config
