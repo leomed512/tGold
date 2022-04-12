@@ -161,11 +161,11 @@ footer {
     }
 }
 .soledad-advisors {
+    margin-block-end: 300px;
     &__element {
         max-width: 380px;
         min-height: 640px;
         margin-block-start: 90px;
-        margin-block-end: 150px;
         h4 {
             font-size: 2rem;
         }
@@ -178,7 +178,7 @@ footer {
 /////////about us
 .aboutus {
     width: 100%;
-    margin: 0 auto 300px auto;
+    margin: 100px auto 300px auto;
         h2 {
         font-size: 4rem;
         margin-block-end: 20px;

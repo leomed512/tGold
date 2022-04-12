@@ -1,6 +1,10 @@
+.main-about {
+    background-color: $light;
+}
 .aboutus {
     width: 100%;
     margin: 0 auto 100px auto;
+
         h2 {
         font-size: 4rem;
         margin-block-end: 20px;
@@ -33,6 +37,10 @@
         line-height: 2.8rem;
     }
     a {
-        color: $light;
+        color: #3D88D1;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
     }
 }

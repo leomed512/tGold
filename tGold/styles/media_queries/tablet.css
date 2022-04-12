@@ -184,13 +184,15 @@
     line-height: 2.2rem;
   }
 
+  .soledad-advisors {
+    -webkit-margin-after: 300px;
+            margin-block-end: 300px;
+  }
   .soledad-advisors__element {
     max-width: 380px;
     min-height: 640px;
     -webkit-margin-before: 90px;
             margin-block-start: 90px;
-    -webkit-margin-after: 150px;
-            margin-block-end: 150px;
   }
   .soledad-advisors__element h4 {
     font-size: 2rem;
@@ -202,7 +204,7 @@
 
   .aboutus {
     width: 100%;
-    margin: 0 auto 300px auto;
+    margin: 100px auto 300px auto;
   }
   .aboutus h2 {
     font-size: 4rem;

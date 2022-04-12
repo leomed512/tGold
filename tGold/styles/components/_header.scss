@@ -6,7 +6,7 @@
     top: 0px;
     align-items: center;
     background-color: $dark;
-    border-block-end: solid 1px gold;
+    border-block-end: solid 1px $main;
     box-shadow: 0 0 7px 0 rgba(#000,  1.0);
     z-index: 2; //So header stands above everything
     .main-logo {
@@ -16,7 +16,6 @@
         width: 80px;
         height: 80px;
         margin: 0 5px;
-        border: solid 0.1rem gold;
     }
     .page-title {
         h1 {
