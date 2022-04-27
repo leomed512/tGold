@@ -51,12 +51,12 @@ body {
   margin: 0;
   font-family: "Play", sans-serif;
   font-size: 2.2rem;
-  color: #fff;
+  color: #ffd60a;
 }
 .header .page-title h2 {
   font-family: "Play", sans-serif;
   font-size: 2rem;
-  color: #fff;
+  color: #ffd60a;
 }
 
 .menu {
@@ -70,8 +70,9 @@ body {
   background-color: transparent;
   border: none;
 }
-.menu:hover {
-  background-color: rgba(246, 204, 44, 0.6);
+.menu:hover img {
+  width: 55px;
+  height: 55px;
 }
 .menu .menu img {
   width: 30px;
@@ -89,7 +90,7 @@ body {
   display: none;
   top: 100px;
   right: 0;
-  background-color: #F6CC2C;
+  background-color: #000000;
   z-index: 1;
 }
 .menu .show {
@@ -108,20 +109,21 @@ body {
 }
 .menu__nav-bar li {
   text-align: center;
-  -webkit-border-before: solid 1px #fff;
-          border-block-start: solid 1px #fff;
+  -webkit-border-before: solid 1px #D4AC2B;
+          border-block-start: solid 1px #D4AC2B;
 }
 .menu a {
   display: block;
   padding: 15px;
   font-size: 1.8rem;
-  color: #000000;
+  color: #ffd60a;
   font-weight: 600;
   text-decoration: none;
 }
 .menu a:hover {
   font-size: 2rem;
   background-color: #D4AC2B;
+  color: #000000;
 }
 
 .title {
