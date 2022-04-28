@@ -9,7 +9,7 @@
         font-size: 4rem;
     }
 }
-  //////////
+  //////////module 3
   .text {
     &__wrapper {
     max-width: 2000px;
@@ -17,4 +17,22 @@
     flex-wrap: nowrap;
         }
     } 
+
+  ///////////////////  module 2
+  .main-services {
+    &__text {
+        width: 500px;
+        margin-inline-end: 100px;
+        h2 {
+            margin-block-end: 30px;
+        }
+    }
+    &__image img {
+        max-width: 650px;
+        margin-inline-start: 100px;
+      }
+      h4 { 
+          font-size: 4.2rem;
+      }
+}
 }

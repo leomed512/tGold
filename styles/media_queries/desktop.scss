@@ -25,43 +25,24 @@
   }
 /////////////// main services
 .main-services {
-  width: 100%;
-  max-width: 1500px;
-  display: block;
-  margin: 0 auto 120px auto;
-  &__element {
-      max-width: 1300px;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0 auto;
-  }
   &__text {
-      max-width: 600px;
-      min-height: 350px;
-      margin: auto;
+      max-width: 450px;
+      padding: 40px 20px;
+      margin: 0 20px;
       h2 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     p {
-        font-size: 2rem;
-        line-height: 3.5rem;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
     }
   }
   &__image {
     margin: 0 auto;
   }
   &__image img {
-    max-width: 600px;
+    max-width: 550px;
   }
-  .left {
-    flex-direction: row-reverse;
-  }
-  .left  img {
-    margin-block-start: 0px;
-    margin-inline-start: 0;
-    width: 450px;
-}
 }
 
 ////// news

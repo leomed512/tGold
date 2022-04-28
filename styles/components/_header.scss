@@ -14,22 +14,22 @@
     }
     .main-logo img {
         width: 50px;
-        height: 45px;
+        height: 50px;
         margin: 0 5px;
     }
     .page-title {
         h1 {
         margin: 0;
         font-family: $title-font;
-        font-size: 2.2rem;
-        background: -webkit-radial-gradient($golden, #ffd60a, #F1DB6F);
+        font-size: 2.6rem;
+        background: -webkit-radial-gradient(#ce871c,  #DB9A13, #ffd60a);
         background-clip: text;
         -webkit-text-fill-color: transparent;
         }
         h2 {
             font-family: $title-font;
             font-size: 2rem;
-            background: -webkit-radial-gradient($golden, #ffd60a, #F1DB6F);
+            background: -webkit-radial-gradient(#ce871c,  #DB9A13, #ffd60a);
             background-clip: text;
             -webkit-text-fill-color: transparent;
         }

@@ -43,16 +43,15 @@
 //////////////// main services
 .main-services {
     &__image img {
-
         max-width: 450px;
+        margin: 0;
     }
     h2 {
-        font-size: 3.4rem;
+        font-size: 2.8rem;
     }
-}
-.text {
-    h2 {
-        font-size: 2.5rem;
+    &__text {
+        max-width: 420px;
+        margin-block-end: 10px;
     }
 }
 

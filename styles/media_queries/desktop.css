@@ -24,56 +24,23 @@
     font-size: 2rem;
   }
 
-  .main-services {
-    width: 100%;
-    max-width: 1500px;
-    display: block;
-    margin: 0 auto 120px auto;
-  }
-  .main-services__element {
-    max-width: 1300px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 auto;
-  }
   .main-services__text {
-    max-width: 600px;
-    min-height: 350px;
-    margin: auto;
+    max-width: 450px;
+    padding: 40px 20px;
+    margin: 0 20px;
   }
   .main-services__text h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .main-services__text p {
-    font-size: 2rem;
-    line-height: 3.5rem;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
   }
   .main-services__image {
     margin: 0 auto;
   }
   .main-services__image img {
-    max-width: 600px;
-  }
-  .main-services .left {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-  }
-  .main-services .left img {
-    -webkit-margin-before: 0px;
-            margin-block-start: 0px;
-    -webkit-margin-start: 0;
-            margin-inline-start: 0;
-    width: 450px;
+    max-width: 550px;
   }
 
   .news-logo {

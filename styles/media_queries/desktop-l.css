@@ -35,13 +35,21 @@
     word-spacing: 0.5rem;
   }
 
+  .main-services__text {
+    width: 500px;
+    -webkit-margin-end: 50px;
+            margin-inline-end: 50px;
+  }
+  .main-services__text h2 {
+    -webkit-margin-after: 30px;
+            margin-block-end: 30px;
+  }
   .main-services__image img {
-    max-width: 700px;
+    max-width: 650px;
+    -webkit-margin-start: 50px;
+            margin-inline-start: 50px;
   }
   .main-services h4 {
     font-size: 4.2rem;
-  }
-  .main-services .left img {
-    width: 600px;
   }
 }

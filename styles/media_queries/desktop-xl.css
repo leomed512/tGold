@@ -16,4 +16,22 @@
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
+
+  .main-services__text {
+    width: 500px;
+    -webkit-margin-end: 100px;
+            margin-inline-end: 100px;
+  }
+  .main-services__text h2 {
+    -webkit-margin-after: 30px;
+            margin-block-end: 30px;
+  }
+  .main-services__image img {
+    max-width: 650px;
+    -webkit-margin-start: 100px;
+            margin-inline-start: 100px;
+  }
+  .main-services h4 {
+    font-size: 4.2rem;
+  }
 }

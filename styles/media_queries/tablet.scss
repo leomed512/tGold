@@ -21,7 +21,6 @@
     }
     
     .title {
-        //max-height: 900px;
         padding-block-start: 50px;
         h2 {
             font-size: 4.6rem;
@@ -41,28 +40,29 @@
     }
 ////////////////// main services
 .main-services {
-    max-width: 890px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;    
     &__element {
-        max-width: 280px;
-        margin-inline-end: 20px;
-        margin-block-start: 20px;
-        
+        max-width: 1300px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
     }
     &__text {
+        width: 100%;
+        max-width: 390px;
+        padding: 30px 20px;
+        margin: 0 20px;
         height: fit-content;
-        min-height: 420px;
-        margin-block-end: 40px;
+        h2 {
+            font-size: 2.6rem;
+        }
     }
     &__image {
-        max-width: 700px;
+        max-width: 600px;
         align-items: center;
-    }
-    .left  img {
-        margin-block-start: 120px;
-        margin-inline-start: 60px;
     }
 }
 ///////////// middle text squares
