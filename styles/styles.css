@@ -59,6 +59,18 @@ body {
   color: #ffd60a;
 }
 
+body.scrolled #header-scroll {
+  opacity: 0.8;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+body.scrolled #header-scroll:hover {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
 .menu {
   -webkit-margin-start: auto;
           margin-inline-start: auto;
