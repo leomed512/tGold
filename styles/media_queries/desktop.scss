@@ -8,15 +8,19 @@
       }
     }
     .title {
+      max-height: 900px;
+      padding-inline-start: 30px;
       h2 {
-          font-size: 6rem;
+          font-size: 5.8rem;
           line-height: 7rem;
       }
       h3 {
           font-size: 3rem;
+          word-spacing: 0.5rem;
       }
       h4 {
-        font-size: 2.2rem;
+        max-width: 450px;
+        font-size: 2rem;
       }
   }
 /////////////// main services

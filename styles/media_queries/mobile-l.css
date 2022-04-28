@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 550px) {
   .header {
     padding: 0 15px;
   }
@@ -16,15 +16,33 @@
     margin: 0 10px;
   }
 
+  .title {
+    max-height: 600px;
+    background-image: url(https://res.cloudinary.com/arawato666/image/upload/v1651115705/BANNER-01_4_1_x4tinv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .title .banner_new {
+    background-image: url();
+  }
   .title h2 {
-    font-size: 3.2rem;
-    line-height: 4rem;
+    max-width: 350px;
+    -webkit-margin-before: 50px;
+            margin-block-start: 50px;
+    font-size: 3.6rem;
+    line-height: 4.7rem;
   }
   .title h3 {
-    font-size: 2.5rem;
+    -webkit-margin-before: 70px;
+            margin-block-start: 70px;
+    font-size: 2.2rem;
   }
   .title h4 {
-    line-height: 3rem;
+    -webkit-margin-before: 50px;
+            margin-block-start: 50px;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
   }
 
   .main-services__image img {

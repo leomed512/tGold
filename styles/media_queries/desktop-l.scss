@@ -10,16 +10,22 @@
     }
 //// title
 .title {
-    background-image: url(https://res.cloudinary.com/arawato666/image/upload/v1649630052/BANNER-heavy_kkx2jb.png);
-    padding-inline-start: 4%;
+    padding-inline-start: 50px;
     h2 {
+        max-width: 800px;
         font-size: 7rem;
+        line-height: 8.5rem;
     }
     h3 {
-        font-size: 3rem;
+        margin-block-start: 100px;
+        font-size: 3.5rem;
     }
     h4 {
+        max-width: 530px;
+        font-size: 2.2rem;
+        line-height: 3.5rem;
         margin-block-start: 70px;
+        word-spacing: 0.5rem;
     }
 }
 .main-services {

@@ -22,26 +22,25 @@
   }
 
   .title {
-    background-image: url(https://res.cloudinary.com/arawato666/image/upload/v1649630051/BANNER-02_xasym7.png);
-    min-height: 600px;
     -webkit-padding-before: 50px;
             padding-block-start: 50px;
-    -webkit-padding-start: 2%;
-            padding-inline-start: 2%;
   }
   .title h2 {
-    font-size: 5rem;
-    line-height: 6.5rem;
-    max-width: 700px;
+    font-size: 4.6rem;
+    line-height: 6rem;
+    max-width: 580px;
   }
   .title h3 {
     -webkit-margin-before: 50px;
             margin-block-start: 50px;
+    font-size: 2.6rem;
   }
   .title h4 {
-    -webkit-margin-before: 200px;
-            margin-block-start: 200px;
-    font-size: 2rem;
+    max-width: 400px;
+    -webkit-margin-before: 50px;
+            margin-block-start: 50px;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
   }
 
   .main-services {

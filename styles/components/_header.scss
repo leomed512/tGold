@@ -38,7 +38,7 @@
 
 ///////////// transparent header when scrolled
 body.scrolled #header-scroll {
-    opacity: 0.8;
+    opacity: 0.9;
     transition: opacity .2s;
   }
   body.scrolled #header-scroll:hover {

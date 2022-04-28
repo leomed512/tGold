@@ -66,7 +66,7 @@ body {
 }
 
 body.scrolled #header-scroll {
-  opacity: 0.8;
+  opacity: 0.9;
   -webkit-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
@@ -158,40 +158,51 @@ body.scrolled #header-scroll:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(https://res.cloudinary.com/arawato666/image/upload/v1649630057/mod_1_s909be.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), color-stop(#f7f7f7), color-stop(#f3f3f3), color-stop(#f0f0f0), to(#ededed));
+  background-image: linear-gradient(to bottom, #fafafa, #f7f7f7, #f3f3f3, #f0f0f0, #ededed);
   width: 100%;
   padding: 30px 0;
 }
 .title__message {
-  width: 90%;
-  padding: 5px;
+  width: 100%;
+  padding: 5px 0 5px 20px;
   text-align: left;
 }
 .title h2 {
-  -webkit-margin-after: 10px;
-          margin-block-end: 10px;
-  max-width: 350px;
-  color: #F6CC2C;
-  font-size: 2.6rem;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
+  max-width: 320px;
+  background: -webkit-radial-gradient(#A3670A, #DB9A13);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
   font-family: "Oswald", sans-serif;
-  line-height: 3rem;
+  line-height: 3.8rem;
 }
 .title h3 {
+  margin: 20px 0;
   font-size: 1.6rem;
   font-family: "Oswald", sans-serif;
-  color: #fff;
+  color: #242426;
   text-transform: uppercase;
   line-height: 2.5rem;
 }
 .title h4 {
-  max-width: 600px;
-  margin: 250px 0px 0px 0px;
-  font-size: 1.6rem;
-  color: #fff;
+  -webkit-margin-after: 20px;
+          margin-block-end: 20px;
+  max-width: 290px;
+  font-size: 1.4rem;
+  color: #333333;
   text-align: justify;
+}
+.title .banner_new {
+  width: 100%;
+  height: 300px;
+  background-image: url(https://res.cloudinary.com/arawato666/image/upload/v1651118091/BANNER-01_4__1_-removebg-preview_gmgij8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .main-services {
