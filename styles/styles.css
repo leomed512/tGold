@@ -51,12 +51,16 @@ body {
   margin: 0;
   font-family: "Play", sans-serif;
   font-size: 2.2rem;
-  color: #ffd60a;
+  background: -webkit-radial-gradient(#D4AC2B, #ffd60a, #F1DB6F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .header .page-title h2 {
   font-family: "Play", sans-serif;
   font-size: 2rem;
-  color: #ffd60a;
+  background: -webkit-radial-gradient(#D4AC2B, #ffd60a, #F1DB6F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 body.scrolled #header-scroll {
