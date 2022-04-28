@@ -16,6 +16,10 @@
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
+  .text__element {
+    min-height: 380px;
+    max-width: 380px;
+  }
 
   .main-services__text {
     width: 500px;

@@ -16,6 +16,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
         }
+    &__element {
+        min-height: 380px;
+        max-width: 380px;
+    }
     } 
 
   ///////////////////  module 2
