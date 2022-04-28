@@ -23,14 +23,14 @@
         font-family: $title-font;
         font-size: 2.2rem;
         background: -webkit-radial-gradient($golden, #ffd60a, #F1DB6F);
-        -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         }
         h2 {
             font-family: $title-font;
             font-size: 2rem;
             background: -webkit-radial-gradient($golden, #ffd60a, #F1DB6F);
-            -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
     }
