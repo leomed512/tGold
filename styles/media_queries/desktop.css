@@ -53,22 +53,6 @@
   .news-logo img {
     margin: 50px;
   }
-  .news-logo .marketwatch {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .news-logo .marketwatch img {
-    margin: 50px;
-  }
-  .news-logo .abc {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .news-logo .abc img {
-    margin: 50px;
-  }
 
   .aboutus .second {
     -webkit-margin-before: 50px;
