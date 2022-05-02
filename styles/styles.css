@@ -204,7 +204,7 @@ body.scrolled #header-scroll:hover {
   background-image: url(https://res.cloudinary.com/arawato666/image/upload/v1651118091/BANNER-01_4__1_-removebg-preview_gmgij8.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: right;
 }
 
 .main-services {
