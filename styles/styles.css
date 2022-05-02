@@ -230,24 +230,18 @@ body.scrolled #header-scroll:hover {
   width: 90%;
   max-width: 400px;
   padding: 20px;
-  background-color: #fff;
-  border-radius: 15px;
-  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
-          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
 }
 .main-services__text h2 {
   margin: 0px 0 20px 0;
   font-family: "Oswald", sans-serif;
   font-size: 2.6rem;
+  color: #fff;
 }
 .main-services__text p {
   line-height: 2.8rem;
-  color: #242426;
+  color: #D4AC2B;
   font-size: 1.5rem;
-}
-.main-services__text:hover {
-  -webkit-box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
-          box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
 }
 .main-services__image {
   width: 100%;

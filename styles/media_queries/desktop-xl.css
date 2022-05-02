@@ -1,4 +1,7 @@
 @media (min-width: 1500px) {
+  .title {
+    max-height: 800px;
+  }
   .title h2 {
     font-size: 8rem;
     line-height: 9rem;

@@ -15,6 +15,7 @@
   .title {
     -webkit-padding-start: 50px;
             padding-inline-start: 50px;
+    max-height: 700px;
   }
   .title h2 {
     max-width: 800px;

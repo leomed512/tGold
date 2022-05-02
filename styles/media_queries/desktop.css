@@ -7,7 +7,6 @@
   }
 
   .title {
-    max-height: 900px;
     -webkit-padding-start: 30px;
             padding-inline-start: 30px;
   }
@@ -25,7 +24,7 @@
   }
 
   .main-services__text {
-    max-width: 450px;
+    max-width: 470px;
     padding: 40px 20px;
     margin: 0 20px;
   }
