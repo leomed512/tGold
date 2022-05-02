@@ -617,14 +617,14 @@ footer .footer-logo h2 {
 .text__wrapper h2 {
   -webkit-margin-after: 5px;
           margin-block-end: 5px;
-  color: #D4AC2B;
+  color: #000000;
   font-family: "Roboto", sans-serif;
   font-size: 2rem;
   text-align: center;
 }
 .text__wrapper p {
   padding: 10px 0;
-  color: #fff;
+  color: #333333;
   font-size: 1.6rem;
   line-height: 2.5rem;
 }
@@ -636,7 +636,8 @@ footer .footer-logo h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #333333;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#eb991d), color-stop(#e8991b), color-stop(#e59a19), color-stop(#e29a17), color-stop(#df9a15), color-stop(#de9d13), color-stop(#dd9f11), color-stop(#dca20f), color-stop(#dda80c), color-stop(#ddad09), color-stop(#deb307), to(#deb905));
+  background-image: linear-gradient(to left top, #eb991d, #e8991b, #e59a19, #e29a17, #df9a15, #de9d13, #dd9f11, #dca20f, #dda80c, #ddad09, #deb307, #deb905);
   border-radius: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -963,7 +964,7 @@ footer .footer-logo h2 {
 }
 .roadmap-container h3 {
   text-align: center;
-  padding: 20px 0;
+  padding: 50px 0 20px 0;
   font-size: 2.5rem;
   color: #D4AC2B;
 }
@@ -971,7 +972,7 @@ footer .footer-logo h2 {
 .roadmap {
   background: #151317;
   color: #fff;
-  padding: 30px 50px;
+  padding: 30px 50px 80px 50px;
   max-width: 1000px;
   margin: 0 auto;
 }
