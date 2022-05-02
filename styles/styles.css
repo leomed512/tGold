@@ -957,3 +957,125 @@ footer .footer-logo h2 {
 .promotion {
   padding: 50px 0;
 }
+
+.roadmap-container {
+  background: #151317;
+}
+.roadmap-container h3 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2.5rem;
+  color: #D4AC2B;
+}
+
+.roadmap {
+  background: #151317;
+  color: #fff;
+  padding: 30px 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.roadmap .point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 7px 50px;
+  position: relative;
+}
+.roadmap .point:first-child .point-index {
+  top: auto;
+  bottom: 0;
+  -webkit-transform: translate(-50%, 2px) !important;
+          transform: translate(-50%, 2px) !important;
+}
+.roadmap .point:last-child .point-index {
+  top: 0;
+  -webkit-transform: translate(50%, -2px) !important;
+          transform: translate(50%, -2px) !important;
+}
+.roadmap .point:not(:last-child) {
+  border-bottom: 2px solid #D4AC2B;
+}
+.roadmap .point:nth-child(odd) {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.roadmap .point:nth-child(odd):not(:first-child) {
+  border-left: 2px solid #D4AC2B;
+}
+.roadmap .point:nth-child(odd) .point-index {
+  left: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.roadmap .point:nth-child(even) {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.roadmap .point:nth-child(even):not(:last-child) {
+  border-right: 2px solid #D4AC2B;
+}
+.roadmap .point:nth-child(even) .point-index {
+  right: 0;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+.roadmap .point .point-index {
+  position: absolute;
+  top: 50%;
+  width: 35px;
+  height: 35px;
+  background: #151317;
+  border: 2px solid #D4AC2B;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.roadmap .point .point-label {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  margin-bottom: 5px;
+}
+@media (min-width: 641px) {
+  .roadmap .point .point-label {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+    width: 50%;
+  }
+}
+.roadmap .point .point-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  width: 100%;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: #cccccc;
+}
+@media (min-width: 641px) {
+  .roadmap .point .point-text {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+    width: 50%;
+  }
+}

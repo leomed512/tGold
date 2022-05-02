@@ -1,0 +1,109 @@
+.roadmap-container {
+  background: #151317;
+  h3 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2.5rem;
+    color: $golden;
+
+  }
+}
+  .roadmap {  
+    background: #151317;
+    color: $light;
+    padding: 30px 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    .point {
+      display: flex;
+      flex-direction: column;
+      padding: 7px 50px;
+      position: relative;
+      
+      &:first-child {
+        .point-index {
+          top: auto;
+          bottom: 0;
+          transform: translate(-50%, 2px) !important;
+        }
+      }    
+      
+      &:last-child {
+        .point-index {
+          top: 0;
+          transform: translate(50%, -2px) !important;
+        }
+      }   
+      
+      &:not(:last-child) {
+        border-bottom: 2px solid $golden;
+      }
+  
+      &:nth-child(odd) {
+        align-items: flex-start;
+        
+        &:not(:first-child) {
+          border-left: 2px solid $golden;
+        }
+        
+        .point-index {
+          left: 0;
+          transform: translate(-50%, -50%);
+        }
+      }
+      
+      &:nth-child(even) {
+        align-items: flex-end;
+        
+        &:not(:last-child) {
+          border-right: 2px solid $golden;
+        }
+        
+        .point-index {
+          right: 0;
+          transform: translate(50%, -50%);
+        }
+      }
+      
+      .point-index {
+        position: absolute;
+        top: 50%;
+        width: 35px;
+        height: 35px;
+        background: #151317;
+        border: 2px solid $golden;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+      
+      .point-label {
+        flex: 1 0 100%;
+        width: 100%;
+        font-size: 1.6rem;
+        margin-bottom: 5px;
+        
+        @media (min-width: 641px) {
+          flex: 1 0 50%;
+          width: 50%;
+        }
+      }
+      
+      .point-text {
+        flex: 1 0 100%;
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        color: darken($light, 20%);
+        
+        @media (min-width: 641px) {
+          flex: 1 0 50%;
+          width: 50%;
+        }
+      }
+    }
+  }
