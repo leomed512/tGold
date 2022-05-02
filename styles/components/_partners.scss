@@ -8,7 +8,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: linear-gradient(to right bottom, #f6cc2c, #eec42c, #e5bc2c, #ddb42b, #d4ac2b);
+        //background-image: radial-gradient(circle, #ce871c, #d18a1b, #d38e19, #d69118, #d89516, #d99914, #db9e11, #dca20f, #dda80c, #ddad09, #deb307, #deb905);
+        background-image: radial-gradient(circle, #eb991d, #e8991b, #e59a19, #e29a17, #df9a15, #de9d13, #dd9f11, #dca20f, #dda80c, #ddad09, #deb307, #deb905);
         margin-block-end: 100px;
     }
     h4 {
