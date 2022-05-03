@@ -503,8 +503,8 @@ footer .footer-logo h2 {
 }
 .aboutus__wrapper--item {
   width: 100%;
-  min-height: 370px;
-  padding: 50px 20px 30px 20px;
+  min-height: 330px;
+  padding: 50px 20px 20px 20px;
   text-align: justify;
 }
 .aboutus .first {
@@ -518,7 +518,7 @@ footer .footer-logo h2 {
 }
 .aboutus p {
   font-size: 1.5rem;
-  line-height: 2.8rem;
+  line-height: 2.4rem;
 }
 .aboutus a {
   color: #3D88D1;
@@ -850,7 +850,7 @@ footer .footer-logo h2 {
   line-height: 1.8rem;
   -webkit-margin-before: 10px;
           margin-block-start: 10px;
-  text-align: justify;
+  text-align: left;
 }
 .team__avatar--description {
   width: 280px;
