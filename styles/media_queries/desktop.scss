@@ -70,9 +70,10 @@ img {
 .text {
   &__element {
     height: fit-content;
-    min-height: 280px;
+    justify-content: flex-start;
+    min-height: 250px;
     margin-inline-end: 20px;
-    padding: 30px;
+    padding-block-start: 40px;
   }
   &__wrapper {
   max-width: 1200px;

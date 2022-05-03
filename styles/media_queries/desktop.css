@@ -68,10 +68,14 @@
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    min-height: 280px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    min-height: 250px;
     -webkit-margin-end: 20px;
             margin-inline-end: 20px;
-    padding: 30px;
+    -webkit-padding-before: 40px;
+            padding-block-start: 40px;
   }
   .text__wrapper {
     max-width: 1200px;

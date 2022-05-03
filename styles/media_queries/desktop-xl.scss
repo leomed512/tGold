@@ -19,8 +19,14 @@
     flex-wrap: nowrap;
         }
     &__element {
-        min-height: 380px;
+        min-height: 300px;
         max-width: 380px;
+    }
+    p {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 2.8rem;
     }
     } 
 
