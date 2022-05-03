@@ -1,6 +1,7 @@
 @media (min-width: 1260px) {
   .header {
-    padding: 0 150px;
+    -webkit-padding-start: 45px;
+            padding-inline-start: 45px;
   }
 
   .text__wrapper {
