@@ -9,9 +9,6 @@
   .header .page-title h1 {
     font-size: 3.2rem;
   }
-  .header .page-title h2 {
-    font-size: 2.4rem;
-  }
   .header .main-logo img {
     margin: 0 10px;
   }
@@ -30,19 +27,32 @@
     max-width: 350px;
     -webkit-margin-before: 50px;
             margin-block-start: 50px;
-    font-size: 3.6rem;
-    line-height: 4.7rem;
+    font-size: 3.8rem;
+    line-height: 4.5rem;
   }
   .title h3 {
     -webkit-margin-before: 70px;
             margin-block-start: 70px;
-    font-size: 2.2rem;
+    font-size: 2rem;
+    word-spacing: 0.05px;
+    letter-spacing: 0.02px;
+    text-shadow: 2px 2px 10px #FFF;
   }
   .title h4 {
     -webkit-margin-before: 50px;
             margin-block-start: 50px;
     font-size: 1.6rem;
-    line-height: 2.6rem;
+    line-height: 2.4rem;
+  }
+  .title__buttons {
+    -webkit-margin-end: auto;
+            margin-inline-end: auto;
+  }
+  .title__buttons a {
+    font-size: 1.5rem;
+  }
+  .title__buttons a:hover {
+    font-size: 1.6rem;
   }
 
   .main-services__image img {

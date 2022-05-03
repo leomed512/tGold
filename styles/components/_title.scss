@@ -18,8 +18,9 @@
         background: -webkit-radial-gradient(#A3670A,  #DB9A13);
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 3rem;
+        font-size: 3.2rem;
         font-family: $font2;
+        font-weight: 900;
         line-height: 3.8rem;
     }
     h3 {
@@ -28,6 +29,7 @@
         font-family: $font2;
         color: $var-darker;
         text-transform: uppercase;
+        font-weight: 900;
         line-height: 2.5rem;
     }
     h4 {
@@ -45,5 +47,25 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: right;
+    }
+
+    /////////////buttons
+    &__buttons {
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        margin-block-start: 15px;
+        a {
+            padding: 5px 10px;
+            text-decoration: none;
+            background-color: $dark;
+            color: $golden;
+            border-radius: 5px;
+            font-family: $font2;
+            box-shadow: 3px 3px 10px rgba($dark, $alpha: 0.5);   
+        }
+        a:hover {
+            font-size: 1.1rem;
+        }
     }
 }

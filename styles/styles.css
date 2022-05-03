@@ -49,20 +49,10 @@ body {
 }
 .header .page-title h1 {
   margin: 0;
-  font-family: "Play", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
   font-size: 2.6rem;
-  background: -webkit-radial-gradient(#ce871c, #DB9A13, #ffd60a);
-  -webkit-background-clip: text;
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.header .page-title h2 {
-  font-family: "Play", sans-serif;
-  font-size: 2rem;
-  background: -webkit-radial-gradient(#ce871c, #DB9A13, #ffd60a);
-  -webkit-background-clip: text;
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #DB9A13;
 }
 
 body.scrolled #header-scroll {
@@ -178,16 +168,18 @@ body.scrolled #header-scroll:hover {
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3rem;
-  font-family: "Oswald", sans-serif;
+  font-size: 3.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
   line-height: 3.8rem;
 }
 .title h3 {
   margin: 20px 0;
   font-size: 1.6rem;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #242426;
   text-transform: uppercase;
+  font-weight: 900;
   line-height: 2.5rem;
 }
 .title h4 {
@@ -205,6 +197,29 @@ body.scrolled #header-scroll:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
+}
+.title__buttons {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-margin-before: 15px;
+          margin-block-start: 15px;
+}
+.title__buttons a {
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: #000000;
+  color: #D4AC2B;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.title__buttons a:hover {
+  font-size: 1.1rem;
 }
 
 .main-services {
@@ -233,8 +248,9 @@ body.scrolled #header-scroll:hover {
 }
 .main-services__text h2 {
   margin: 0px 0 20px 0;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.6rem;
+  font-weight: 900;
   color: #fff;
 }
 .main-services__text p {
@@ -285,7 +301,7 @@ body.scrolled #header-scroll:hover {
   cursor: pointer;
   border-radius: 10px;
   font-size: 2rem;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 .myBtn img {
@@ -339,8 +355,9 @@ footer .footer-logo img {
           margin-inline-start: 10px;
 }
 footer .footer-logo h2 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2rem;
+  font-weight: 900;
 }
 
 .contact-email {
@@ -390,13 +407,14 @@ footer .footer-logo h2 {
           align-items: center;
   padding: 0 10px;
   letter-spacing: 2px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   text-align: center;
 }
 .tawfiki h2 {
   margin: 10px 0;
   font-size: 1.2rem;
+  font-weight: 900;
 }
 
 .msb {
@@ -535,8 +553,8 @@ footer .footer-logo h2 {
 .powered h4 {
   padding: 10px 20px;
   font-size: 2.6rem;
-  font-family: "Oswald", sans-serif;
-  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
   color: #000000;
   text-align: center;
 }
@@ -613,6 +631,7 @@ footer .footer-logo h2 {
           margin-block-end: 5px;
   color: #000000;
   font-family: "Roboto", sans-serif;
+  font-weight: 900;
   font-size: 2rem;
   text-align: center;
 }
@@ -665,8 +684,9 @@ footer .footer-logo h2 {
           align-items: center;
 }
 .news-logo h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 3rem;
+  font-weight: 900;
   -webkit-margin-after: 20px;
           margin-block-end: 20px;
   text-align: center;
@@ -761,7 +781,7 @@ footer .footer-logo h2 {
   padding: 10px;
   font-size: 2.2rem;
   margin: 100px auto 0 auto;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #F6CC2C;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#242426), color-stop(#1d1d1e), color-stop(#161616), color-stop(#0d0d0d), to(#000000));
   background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
@@ -821,7 +841,7 @@ footer .footer-logo h2 {
   margin: 10px 0;
   font-size: 1.7rem;
   text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .team__avatar--item h5 {
   font-size: 1.5rem;
@@ -875,7 +895,7 @@ footer .footer-logo h2 {
   padding: 10px;
   font-size: 2.2rem;
   margin: 20px auto;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #F6CC2C;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#242426), color-stop(#1d1d1e), color-stop(#161616), color-stop(#0d0d0d), to(#000000));
   background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
@@ -934,7 +954,7 @@ footer .footer-logo h2 {
   margin: 10px 0;
   font-size: 1.7rem;
   text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .soledad-advisors__element h5 {
   font-size: 1.5rem;
@@ -961,6 +981,7 @@ footer .footer-logo h2 {
   padding: 50px 0 20px 0;
   font-size: 2.5rem;
   color: #D4AC2B;
+  font-weight: 900;
 }
 
 .roadmap {

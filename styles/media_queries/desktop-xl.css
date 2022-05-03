@@ -3,11 +3,12 @@
     max-height: 800px;
   }
   .title h2 {
-    font-size: 8rem;
-    line-height: 9rem;
+    max-width: 800px;
+    font-size: 7rem;
+    line-height: 8rem;
   }
   .title h3 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .text__wrapper {

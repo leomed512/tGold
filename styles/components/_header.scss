@@ -20,18 +20,13 @@
     .page-title {
         h1 {
         margin: 0;
-        font-family: $title-font;
+        font-family: $font2;
+        font-weight: 900;
         font-size: 2.6rem;
-        background: -webkit-radial-gradient(#ce871c,  #DB9A13, #ffd60a);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        }
-        h2 {
-            font-family: $title-font;
-            font-size: 2rem;
-            background: -webkit-radial-gradient(#ce871c,  #DB9A13, #ffd60a);
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+        color:#DB9A13;
+        //background: -webkit-radial-gradient(#ce871c,  #DB9A13, #ffd60a);
+        //background-clip: text;
+        //-webkit-text-fill-color: transparent;
         }
     }
 }

@@ -9,9 +9,6 @@
   .header .page-title h1 {
     font-size: 3.4rem;
   }
-  .header .page-title h2 {
-    font-size: 2.6rem;
-  }
   .header .main-logo img {
     width: 70px;
     height: 70px;
@@ -22,25 +19,25 @@
   }
 
   .title {
-    -webkit-padding-before: 50px;
-            padding-block-start: 50px;
+    -webkit-padding-before: 30px;
+            padding-block-start: 30px;
   }
   .title h2 {
-    font-size: 4.6rem;
-    line-height: 6rem;
-    max-width: 580px;
+    font-size: 4.2rem;
+    line-height: 5rem;
+    max-width: 520px;
   }
   .title h3 {
     -webkit-margin-before: 50px;
             margin-block-start: 50px;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
   }
   .title h4 {
     max-width: 400px;
     -webkit-margin-before: 50px;
             margin-block-start: 50px;
-    font-size: 1.8rem;
-    line-height: 3.2rem;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
   }
 
   .main-services {

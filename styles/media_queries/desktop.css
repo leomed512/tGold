@@ -7,20 +7,21 @@
   }
 
   .title {
-    -webkit-padding-start: 30px;
-            padding-inline-start: 30px;
+    -webkit-padding-start: 20px;
+            padding-inline-start: 20px;
   }
   .title h2 {
-    font-size: 5.8rem;
-    line-height: 7rem;
+    max-width: 560px;
+    font-size: 5.2rem;
+    line-height: 6.8rem;
   }
   .title h3 {
-    font-size: 3rem;
-    word-spacing: 0.5rem;
+    font-size: 2.5rem;
+    word-spacing: 0.2rem;
   }
   .title h4 {
     max-width: 450px;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .main-services__text {
