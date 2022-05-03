@@ -804,7 +804,7 @@ footer .footer-logo h2 {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 10px 20px 35px 20px;
+  padding: 30px 20px 35px 20px;
   margin: 30px 0;
   position: relative;
   display: -webkit-box;
@@ -817,16 +817,16 @@ footer .footer-logo h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   background-image: -webkit-gradient(linear, left top, right bottom, from(#242426), color-stop(#1d1d1e), color-stop(#161616), color-stop(#0d0d0d), to(#000000));
   background-image: linear-gradient(to right bottom, #242426, #1d1d1e, #161616, #0d0d0d, #000000);
   -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.4);
           box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.4);
   text-align: center;
   border-radius: 10px;
-  color: #fff;
+  color: #F6CC2C;
 }
 .team__avatar--item img {
   max-width: 160px;
@@ -964,6 +964,17 @@ footer .footer-logo h2 {
   -webkit-margin-before: 10px;
           margin-block-start: 10px;
   text-align: justify;
+}
+.soledad-advisors .linkedin {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+}
+.soledad-advisors .linkedin img {
+  width: 30px;
+}
+.soledad-advisors .linkedin img:hover {
+  width: 32px;
 }
 
 .promotion {

@@ -148,7 +148,7 @@
   .team__avatar--item {
     -webkit-margin-before: 90px;
             margin-block-start: 90px;
-    min-height: 580px;
+    min-height: 600px;
   }
   .team__avatar--item h4 {
     font-size: 2rem;
@@ -164,7 +164,7 @@
   }
   .soledad-advisors__element {
     max-width: 380px;
-    min-height: 640px;
+    min-height: 600px;
     -webkit-margin-before: 90px;
             margin-block-start: 90px;
   }
