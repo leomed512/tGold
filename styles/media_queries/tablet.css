@@ -97,6 +97,12 @@
     font-size: 3.6rem;
     margin: 50px auto 100px auto;
   }
+  .news-logo .nbc {
+    margin: 30px 0px 30px 10px;
+  }
+  .news-logo .cbs img {
+    margin: 30px 10px;
+  }
 
   .tawfiki {
     font-size: 1.2rem;
