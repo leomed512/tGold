@@ -100,4 +100,8 @@
     -webkit-margin-end: 20px;
             margin-inline-end: 20px;
   }
+
+  .tawfiki h2 {
+    max-width: 500px;
+  }
 }
