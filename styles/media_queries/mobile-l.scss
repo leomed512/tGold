@@ -1,6 +1,6 @@
 @media (min-width:550px) {
     .header { 
-        padding-inline-end:15px;
+        //padding-inline-end:15px;
         .page-title {
             margin-inline-start: 10px;
             h1 {
@@ -93,12 +93,6 @@
     &__element {
         margin-inline-end: 10px;
         min-height: 490px;  
-    }
-}
-/// news 
-.news-logo {
-    .marketwatch {
-        //margin-inline-end: 10px;
     }
 }
 ////footer 

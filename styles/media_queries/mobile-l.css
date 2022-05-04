@@ -1,8 +1,4 @@
 @media (min-width: 550px) {
-  .header {
-    -webkit-padding-end: 15px;
-            padding-inline-end: 15px;
-  }
   .header .page-title {
     -webkit-margin-start: 10px;
             margin-inline-start: 10px;

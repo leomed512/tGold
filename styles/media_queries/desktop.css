@@ -3,6 +3,11 @@
     margin: 0;
   }
 
+  .menu a {
+    font-size: 1.8rem;
+    padding: 10px 20px;
+  }
+
   .title {
     -webkit-padding-start: 20px;
             padding-inline-start: 20px;
