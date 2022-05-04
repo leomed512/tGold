@@ -20,7 +20,7 @@
     align-items: center;
     }
     img {
-        margin: 30px;
+        margin: 20px;
     }
   .marketwatch {
       width: fit-content;
@@ -34,13 +34,13 @@
         width: fit-content;
         img {
             width: 120px;
-            margin: 10px;
+            margin: 20px 10px 20px 5px;
         }  
     }
     .nbc {
-        width: fit-content;
         img {
             width: 120px;
+            margin: 20px 10px;
         }
     }
     .cbs {
@@ -54,5 +54,46 @@
         img {
             width: 120px;
         }
+    }
+    .herald {
+        img {
+            width: 230px;
+            margin: 20px 0;
+        }
     }  
+    .financial {
+        img {
+            width: 200px;
+        }
+    }
+    .newswire {
+        img {
+          width: 200px;
+          margin-block-start: 0;  
+        }   
+    }
+    .pittsburgh {
+        
+        img {
+            width: 180px;
+            margin: 0;
+        }
+    }
+    .googlenews {
+        img {
+            width: 280px;
+            margin: 0;
+        }
+    }
+    .digitaljournal {
+        img {
+            width: 180px;
+            
+        }
+    }
+    .yahoo {
+        img {
+            width: 160px;
+        }
+    }
 }

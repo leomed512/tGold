@@ -41,14 +41,36 @@
   }
 
   .news-logo {
-    -webkit-padding-after: 80px;
-            padding-block-end: 80px;
+    max-width: 1500px;
+    -webkit-padding-after: 50px;
+            padding-block-end: 50px;
   }
   .news-logo h3 {
     font-size: 4rem;
   }
   .news-logo img {
-    margin: 50px;
+    margin: 40px 60px;
+  }
+  .news-logo .cbs {
+    margin: 10px;
+  }
+  .news-logo .fox img {
+    margin: 30px;
+  }
+  .news-logo .newswire img {
+    margin: 40px 20px 40px 0;
+  }
+
+  .financial img {
+    margin: 40px 20px 40px 20px;
+  }
+
+  .digitaljournal img {
+    margin: 40px;
+  }
+
+  .yahoo img {
+    margin: 20px;
   }
 
   .aboutus p {

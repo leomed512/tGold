@@ -52,4 +52,9 @@
   .main-services h4 {
     font-size: 4.2rem;
   }
+
+  .news-logo .pittsburgh {
+    -webkit-margin-start: 20px;
+            margin-inline-start: 20px;
+  }
 }

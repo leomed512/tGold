@@ -703,7 +703,7 @@ footer .footer-logo h2 {
           align-items: center;
 }
 .news-logo img {
-  margin: 30px;
+  margin: 20px;
 }
 .news-logo .marketwatch {
   width: -webkit-fit-content;
@@ -721,15 +721,11 @@ footer .footer-logo h2 {
 }
 .news-logo .abc img {
   width: 120px;
-  margin: 10px;
-}
-.news-logo .nbc {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  margin: 20px 10px 20px 5px;
 }
 .news-logo .nbc img {
   width: 120px;
+  margin: 20px 10px;
 }
 .news-logo .cbs {
   width: -webkit-fit-content;
@@ -746,6 +742,32 @@ footer .footer-logo h2 {
 }
 .news-logo .fox img {
   width: 120px;
+}
+.news-logo .herald img {
+  width: 230px;
+  margin: 20px 0;
+}
+.news-logo .financial img {
+  width: 200px;
+}
+.news-logo .newswire img {
+  width: 200px;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+}
+.news-logo .pittsburgh img {
+  width: 180px;
+  margin: 0;
+}
+.news-logo .googlenews img {
+  width: 280px;
+  margin: 0;
+}
+.news-logo .digitaljournal img {
+  width: 180px;
+}
+.news-logo .yahoo img {
+  width: 160px;
 }
 
 .team {

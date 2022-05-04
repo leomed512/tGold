@@ -47,13 +47,41 @@
 
 ////// news
 .news-logo {
-  padding-block-end: 80px;
+  max-width: 1500px;
+  padding-block-end: 50px;
   h3 {
   font-size: 4rem;
 }
 img {
-  margin: 50px;
+  margin: 40px 60px;
 }
+.cbs {
+  margin: 10px;
+}
+.fox {
+  img {
+    margin: 30px;
+  }
+}
+.newswire {
+  img {
+   margin: 40px 20px 40px 0;
+  }
+}
+}.financial {
+  img {
+    margin: 40px 20px 40px 20px;
+  }
+}
+.digitaljournal {
+  img {
+    margin: 40px;
+  }  
+}
+.yahoo {
+  img {
+    margin: 20px
+  }
 }
 /////////about us
 .aboutus {
