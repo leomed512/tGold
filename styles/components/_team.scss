@@ -150,8 +150,17 @@
             margin-block-start: 10px;
             text-align: justify;
         }
+        img {
+            max-width: 200px;
+            height: auto;
+            margin-block-end: 5px;
+            border-radius: 10px;
+        }
         
     }
+    &__element--image{
+            width: 150px;
+        }
     .linkedin {
         position: absolute;
         right: 5px;

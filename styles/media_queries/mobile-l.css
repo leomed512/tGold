@@ -89,7 +89,13 @@
   .soledad-advisors__element {
     -webkit-margin-end: 10px;
             margin-inline-end: 10px;
-    min-height: 490px;
+    min-height: 615px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .soledad-advisors__element img {
+    max-width: 230px;
   }
 
   .tawfiki h2 {

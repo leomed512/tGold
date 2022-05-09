@@ -92,7 +92,11 @@
 .soledad-advisors {
     &__element {
         margin-inline-end: 10px;
-        min-height: 490px;  
+        min-height: 615px;
+        justify-content: flex-start;  
+        img {
+            max-width: 230px;
+        }
     }
 }
 ////footer 

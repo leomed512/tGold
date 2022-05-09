@@ -1000,6 +1000,16 @@ footer .footer-logo h2 {
           margin-block-start: 10px;
   text-align: justify;
 }
+.soledad-advisors__element img {
+  max-width: 200px;
+  height: auto;
+  -webkit-margin-after: 5px;
+          margin-block-end: 5px;
+  border-radius: 10px;
+}
+.soledad-advisors__element--image {
+  width: 150px;
+}
 .soledad-advisors .linkedin {
   position: absolute;
   right: 5px;
