@@ -1156,3 +1156,27 @@ footer .footer-logo h2 {
     width: 50%;
   }
 }
+
+.terms-container {
+  width: 90%;
+  margin: 30px auto;
+}
+.terms-container h2 {
+  padding: 10px 0;
+  font-size: 2.6rem;
+  font-family: "Roboto", sans-serif;
+}
+.terms-container__wrapper p {
+  margin: 5px 0 12px 10px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-align: justify;
+}
+.terms-container__wrapper h3 {
+  margin: 20px 0 10px 0;
+  font-size: 1.8rem;
+}
+.terms-container__wrapper h4 {
+  margin: 15px 0;
+  font-size: 1.6rem;
+}
