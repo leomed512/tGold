@@ -89,6 +89,11 @@
     font-size: 1.8rem;
     line-height: 2.6rem;
   }
+  .text h3 {
+    font-size: 3rem;
+    -webkit-padding-before: 70px;
+            padding-block-start: 70px;
+  }
 
   .news-logo h3 {
     font-size: 3.6rem;

@@ -106,6 +106,9 @@ img {
 }
 ////// module 3 text
 .text {
+  h3 {
+    font-size: 3.8rem;
+  }
   &__element {
     height: fit-content;
     justify-content: flex-start;

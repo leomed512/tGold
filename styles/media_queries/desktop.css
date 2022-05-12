@@ -91,6 +91,9 @@
     margin: 20% auto 0 auto;
   }
 
+  .text h3 {
+    font-size: 3.8rem;
+  }
   .text__element {
     height: -webkit-fit-content;
     height: -moz-fit-content;

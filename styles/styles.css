@@ -621,6 +621,14 @@ footer .footer-logo h2 {
   -webkit-padding-after: 10px;
           padding-block-end: 10px;
 }
+.text h3 {
+  -webkit-padding-before: 50px;
+          padding-block-start: 50px;
+  font-size: 2.4rem;
+  color: #dca20f;
+  text-align: center;
+  font-weight: 900;
+}
 .text__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
