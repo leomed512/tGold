@@ -1,0 +1,22 @@
+.contactus {
+    margin: 20px auto 250px auto;
+    padding: 10px 30px;
+
+    h2 {
+        font-size: 4rem;
+        padding: 5px;
+        font-family: $font2;
+    }
+    p {
+        padding: 20px 10px;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+    a {
+        padding: 20px 0;
+        color: $secundary;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 1.8rem;
+    }
+}

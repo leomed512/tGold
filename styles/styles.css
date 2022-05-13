@@ -1180,3 +1180,25 @@ footer .footer-logo h2 {
   margin: 15px 0;
   font-size: 1.6rem;
 }
+
+.contactus {
+  margin: 20px auto 250px auto;
+  padding: 10px 30px;
+}
+.contactus h2 {
+  font-size: 4rem;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.contactus p {
+  padding: 20px 10px;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+.contactus a {
+  padding: 20px 0;
+  color: #005FA6;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.8rem;
+}

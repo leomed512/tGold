@@ -101,4 +101,17 @@
   .tawfiki h2 {
     max-width: 500px;
   }
+
+  .contactus {
+    padding: 40px 30px;
+  }
+  .contactus h2 {
+    font-size: 4rem;
+  }
+  .contactus p {
+    -webkit-margin-before: 20px;
+            margin-block-start: 20px;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 }
