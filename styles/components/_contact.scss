@@ -1,6 +1,6 @@
 .contactus {
     margin: 20px auto 250px auto;
-    padding: 10px 30px;
+    padding: 10px;
 
     h2 {
         font-size: 4rem;
@@ -8,15 +8,17 @@
         font-family: $font2;
     }
     p {
-        padding: 20px 10px;
-        font-size: 1.6rem;
+        padding: 10px 5px;
+        margin-block-end: 50px;
+        font-size: 1.8rem;
         line-height: 2.6rem;
     }
     a {
-        padding: 20px 0;
+        margin-block-start: 50px;
         color: $secundary;
         font-weight: 700;
         text-decoration: none;
         font-size: 1.8rem;
+        font-family: $font2;
     }
 }

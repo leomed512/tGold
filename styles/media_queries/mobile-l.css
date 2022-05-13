@@ -103,15 +103,16 @@
   }
 
   .contactus {
-    padding: 40px 30px;
+    padding: 50px 50px;
   }
   .contactus h2 {
-    font-size: 4rem;
+    font-size: 4.4rem;
   }
   .contactus p {
-    -webkit-margin-before: 20px;
-            margin-block-start: 20px;
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 3rem;
+  }
+  .contactus a {
+    font-size: 2.4rem;
   }
 }
