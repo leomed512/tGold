@@ -107,6 +107,10 @@
     -webkit-padding-before: 40px;
             padding-block-start: 40px;
   }
+  .text__element .first-title {
+    -webkit-margin-after: 28px;
+            margin-block-end: 28px;
+  }
   .text__wrapper {
     max-width: 1200px;
     -webkit-box-orient: horizontal;

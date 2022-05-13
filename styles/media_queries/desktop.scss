@@ -109,13 +109,19 @@ img {
   h3 {
     font-size: 3.8rem;
   }
+
   &__element {
     height: fit-content;
     justify-content: flex-start;
     min-height: 250px;
     margin-inline-end: 20px;
-    padding-block-start: 40px;
+    padding-block-start: 40px;  
+    
+    .first-title {
+    margin-block-end: 28px;
   }
+  }
+
   &__wrapper {
   max-width: 1200px;
   flex-direction: row;
